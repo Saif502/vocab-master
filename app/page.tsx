@@ -93,12 +93,12 @@ export default function HomePage() {
             <Link
               key={card.href}
               href={card.href}
-              className="group rounded-2xl border border-slate-200 bg-white/85 dark:bg-slate-900/40 dark:border-slate-700 p-5 shadow-soft dark:shadow-lg transition hover:-translate-y-1 hover:shadow-xl dark:hover:shadow-xl dark:hover:shadow-sky-500/10 backdrop-blur-sm"
+              className="group rounded-2xl border border-slate-200 bg-white/85 p-5 shadow-soft transition hover:-translate-y-1 hover:shadow-xl"
               style={{ animationDelay: `${120 + index * 90}ms` }}
             >
               <div className={`mb-4 inline-flex rounded-xl bg-gradient-to-r p-2.5 text-white ${card.classes}`}>
                 {card.title === "Start Quiz" ? (
-                  <div className="relative h-8 w-8 rounded-lg bg-gradient-to-br from-yellow-300 to-orange-400 p-0 flex items-center justify-center">
+                  <div className="relative h-8 w-8 rounded-lg p-0 flex items-center justify-center" style={{ backgroundColor: "#0dbfb0" }}>
                     <Image
                       src="/start-quiz-icon.svg"
                       alt="Start quiz icon"
@@ -111,7 +111,7 @@ export default function HomePage() {
                   <Icon className="h-6 w-6" />
                 )}
               </div>
-              <h2 className="text-xl font-semibold text-ink dark:text-slate-100">
+              <h2 className="text-xl font-semibold text-ink">
                 {card.title}
                 {card.title === "Start Quiz" ? (
                   <span className="ml-2 inline-flex items-center rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-700">
@@ -120,7 +120,7 @@ export default function HomePage() {
                   </span>
                 ) : null}
               </h2>
-              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">{card.subtitle}</p>
+              <p className="mt-2 text-sm text-slate-600">{card.subtitle}</p>
               <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-sky-700 transition group-hover:translate-x-1">
                 {card.title === "Start Quiz" ? <Sparkles className="h-4 w-4" /> : null}
                 Open {card.title}
