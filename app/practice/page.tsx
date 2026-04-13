@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ChevronLeft, Clock3 } from "lucide-react";
+import { ChevronLeft, Clock3, Volume2 } from "lucide-react";
 
 import { QuizSession } from "@/components/quiz-session";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -10,6 +10,7 @@ import { useTheme } from "@/hooks/use-theme";
 import { CATEGORY_LABELS, type WordCategory } from "@/lib/words";
 import { type StoredWord, getWordCategory } from "@/lib/vocab-storage";
 import { useVocabList } from "@/hooks/use-vocab-list";
+import { getPrimaryAnswer } from "@/lib/quiz";
 
 type Mode = "setup" | "reading" | "finished" | "quiz";
 
@@ -83,6 +84,19 @@ export default function PracticePage() {
   const resetPractice = () => {
     setMode("setup");
     setReviewWords([]);
+  };
+
+  const speakWord = (english: string) => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(getPrimaryAnswer(english));
+    utterance.lang = "en-US";
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
   };
 
   return (
@@ -171,8 +185,19 @@ export default function PracticePage() {
           <div className="grid gap-3 md:grid-cols-2">
             {reviewWords.map((word) => (
               <article key={word.id} className="rounded-xl border border-slate-200 bg-white p-4">
-                <p className="text-lg font-semibold text-ink">{word.en}</p>
-                <p className="mt-1 text-base text-slate-700" style={{ fontFamily: "var(--font-hind)" }}>
+                <div className="mb-2 flex items-center justify-between">
+                  <p className="text-lg font-semibold text-ink">{word.en}</p>
+                  <button
+                    type="button"
+                    onClick={() => speakWord(word.en)}
+                    className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 transition hover:border-sky-300 hover:text-sky-600"
+                    aria-label={`Hear pronunciation for ${getPrimaryAnswer(word.en)}`}
+                    title="Hear pronunciation"
+                  >
+                    <Volume2 className="h-4 w-4" />
+                  </button>
+                </div>
+                <p className="text-base text-slate-700" style={{ fontFamily: "var(--font-hind)" }}>
                   {word.bn}
                 </p>
               </article>
