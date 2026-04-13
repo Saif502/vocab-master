@@ -102,7 +102,7 @@ export default function PracticePage() {
   return (
     <main className="mx-auto min-h-screen w-full max-w-6xl px-4 py-8 md:px-6 lg:py-10">
       <div className="mb-6 flex items-center justify-between">
-        <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-slate-900">
+        <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 dark:text-sky-300 hover:text-slate-900 dark:hover:text-sky-100 transition">
           <ChevronLeft className="h-4 w-4" />
           Back to Home
         </Link>

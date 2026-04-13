@@ -1,11 +1,11 @@
 [
   {
     "route": "/quiz",
-    "firstLoadUncompressedJsBytes": 614935,
+    "firstLoadUncompressedJsBytes": 615055,
     "firstLoadChunkPaths": [
       ".next\\static\\chunks\\0o_sf~vppnl2l.js",
       ".next\\static\\chunks\\0d3shmwh5_nmn.js",
-      ".next\\static\\chunks\\0bq1lzu6~hlfw.js",
+      ".next\\static\\chunks\\0h7lu~e-yskws.js",
       ".next\\static\\chunks\\13aus3kqanczm.js",
       ".next\\static\\chunks\\0dgq26a5_oy.a.js",
       ".next\\static\\chunks\\0vxi98ewbbk5w.js",
@@ -15,11 +15,11 @@
   },
   {
     "route": "/",
-    "firstLoadUncompressedJsBytes": 609061,
+    "firstLoadUncompressedJsBytes": 609379,
     "firstLoadChunkPaths": [
       ".next\\static\\chunks\\0o_sf~vppnl2l.js",
       ".next\\static\\chunks\\0d3shmwh5_nmn.js",
-      ".next\\static\\chunks\\0c8l1rw-bv5h8.js",
+      ".next\\static\\chunks\\0idt3qlqy3i-..js",
       ".next\\static\\chunks\\06rxw3txjhdpr.js",
       ".next\\static\\chunks\\13aus3kqanczm.js",
       ".next\\static\\chunks\\0dgq26a5_oy.a.js",
@@ -30,11 +30,11 @@
   },
   {
     "route": "/practice",
-    "firstLoadUncompressedJsBytes": 605649,
+    "firstLoadUncompressedJsBytes": 605702,
     "firstLoadChunkPaths": [
       ".next\\static\\chunks\\0o_sf~vppnl2l.js",
       ".next\\static\\chunks\\0d3shmwh5_nmn.js",
-      ".next\\static\\chunks\\06-ny76bahxoq.js",
+      ".next\\static\\chunks\\16.ixn_or5y_9.js",
       ".next\\static\\chunks\\13aus3kqanczm.js",
       ".next\\static\\chunks\\0dgq26a5_oy.a.js",
       ".next\\static\\chunks\\0vxi98ewbbk5w.js",
