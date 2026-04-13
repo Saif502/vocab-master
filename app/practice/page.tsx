@@ -27,9 +27,10 @@ export default function PracticePage() {
   const { themeMode, toggleTheme } = useTheme();
 
   const [mode, setMode] = useState<Mode>("setup");
-  const [timeLimit, setTimeLimit] = useState(120);
+  const [timeLimit, setTimeLimit] = useState(300);
+  const [vocabCount, setVocabCount] = useState(15);
   const [category, setCategory] = useState<WordCategory | "all">("all");
-  const [remainingSeconds, setRemainingSeconds] = useState(120);
+  const [remainingSeconds, setRemainingSeconds] = useState(300);
   const [reviewWords, setReviewWords] = useState<StoredWord[]>([]);
 
   const categoryOptions = useMemo(
@@ -73,7 +74,7 @@ export default function PracticePage() {
     .padStart(2, "0")}:${(remainingSeconds % 60).toString().padStart(2, "0")}`;
 
   const startReading = () => {
-    const selection = shuffle(filteredWords).slice(0, Math.min(30, filteredWords.length));
+    const selection = shuffle(filteredWords).slice(0, Math.min(vocabCount, filteredWords.length));
     setReviewWords(selection);
     setRemainingSeconds(timeLimit);
     setMode("reading");
@@ -101,20 +102,36 @@ export default function PracticePage() {
           <h1 className="text-3xl font-bold text-ink">Practice Mode</h1>
           <p className="mt-2 text-sm text-slate-600">Select a timer and category, then start reading words before taking a focused quiz.</p>
 
-          <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             <label className="block">
-              <span className="mb-2 block text-sm font-semibold text-slate-600">Time Limit</span>
+              <span className="mb-2 block text-sm font-semibold text-slate-600">Words to Read</span>
+              <select
+                value={vocabCount}
+                onChange={(event) => setVocabCount(Number(event.target.value))}
+                className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-700 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-100"
+              >
+                <option value={10}>10 words</option>
+                <option value={15}>15 words</option>
+                <option value={20}>20 words</option>
+                <option value={30}>30 words</option>
+              </select>
+            </label>
+
+            <label className="block">
+              <span className="mb-2 block text-sm font-semibold text-slate-600">Reading Time</span>
               <select
                 value={timeLimit}
                 onChange={(event) => setTimeLimit(Number(event.target.value))}
                 className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-700 outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-100"
               >
-                <option value={120}>2 minutes</option>
                 <option value={300}>5 minutes</option>
+                <option value={420}>7 minutes</option>
+                <option value={600}>10 minutes</option>
+                <option value={900}>15 minutes</option>
               </select>
             </label>
 
-            <label className="block">
+            <label className="block md:col-span-2 lg:col-span-2">
               <span className="mb-2 block text-sm font-semibold text-slate-600">Category</span>
               <select
                 value={category}

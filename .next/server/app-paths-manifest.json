@@ -1,0 +1,8 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/add-vocab/page": "app/add-vocab/page.js",
+  "/page": "app/page.js",
+  "/practice/page": "app/practice/page.js",
+  "/quiz/page": "app/quiz/page.js"
+}

@@ -1,0 +1,4757 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[project]/allWords.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "allWords",
+    ()=>allWords
+]);
+const allWords = [
+    {
+        id: 1,
+        en: "Monday",
+        bn: "সোমবার"
+    },
+    {
+        id: 2,
+        en: "Tuesday",
+        bn: "মঙ্গলবার"
+    },
+    {
+        id: 3,
+        en: "Wednesday",
+        bn: "বুধবার"
+    },
+    {
+        id: 4,
+        en: "Thursday",
+        bn: "বৃহস্পতিবার"
+    },
+    {
+        id: 5,
+        en: "Friday",
+        bn: "শুক্রবার"
+    },
+    {
+        id: 6,
+        en: "Saturday",
+        bn: "শনিবার"
+    },
+    {
+        id: 7,
+        en: "Sunday",
+        bn: "রবিবার"
+    },
+    {
+        id: 8,
+        en: "weekdays",
+        bn: "সপ্তাহের কাজের দিনগুলো"
+    },
+    {
+        id: 9,
+        en: "weekend",
+        bn: "ছুটির দিন (সপ্তাহান্ত)"
+    },
+    {
+        id: 10,
+        en: "January",
+        bn: "জানুয়ারি"
+    },
+    {
+        id: 11,
+        en: "February",
+        bn: "ফেব্রুয়ারি"
+    },
+    {
+        id: 12,
+        en: "March",
+        bn: "মার্চ"
+    },
+    {
+        id: 13,
+        en: "April",
+        bn: "এপ্রিল"
+    },
+    {
+        id: 14,
+        en: "May",
+        bn: "মে"
+    },
+    {
+        id: 15,
+        en: "June",
+        bn: "জুন"
+    },
+    {
+        id: 16,
+        en: "July",
+        bn: "জুলাই"
+    },
+    {
+        id: 17,
+        en: "August",
+        bn: "আগস্ট"
+    },
+    {
+        id: 18,
+        en: "September",
+        bn: "সেপ্টেম্বর"
+    },
+    {
+        id: 19,
+        en: "October",
+        bn: "অক্টোবর"
+    },
+    {
+        id: 20,
+        en: "November",
+        bn: "নভেম্বর"
+    },
+    {
+        id: 21,
+        en: "December",
+        bn: "ডিসেম্বর"
+    },
+    {
+        id: 22,
+        en: "cash",
+        bn: "নগদ অর্থ"
+    },
+    {
+        id: 23,
+        en: "debit",
+        bn: "ডেবিট (হিসাব থেকে খরচ)"
+    },
+    {
+        id: 24,
+        en: "credit card",
+        bn: "ক্রেডিট কার্ড"
+    },
+    {
+        id: 25,
+        en: "cheque",
+        bn: "চেক"
+    },
+    {
+        id: 26,
+        en: "in advance",
+        bn: "অগ্রিম"
+    },
+    {
+        id: 27,
+        en: "annual fee",
+        bn: "বার্ষিক ফি"
+    },
+    {
+        id: 28,
+        en: "monthly membership",
+        bn: "মাসিক সদস্যপদ"
+    },
+    {
+        id: 29,
+        en: "interest rate",
+        bn: "সুদের হার"
+    },
+    {
+        id: 30,
+        en: "deposit",
+        bn: "জমা"
+    },
+    {
+        id: 31,
+        en: "tuition fees",
+        bn: "টিউশন ফি (বেতন)"
+    },
+    {
+        id: 32,
+        en: "poverty",
+        bn: "দারিদ্র্য"
+    },
+    {
+        id: 33,
+        en: "bank statement",
+        bn: "ব্যাংক বিবরণী"
+    },
+    {
+        id: 34,
+        en: "money management",
+        bn: "অর্থ ব্যবস্থাপনা"
+    },
+    {
+        id: 35,
+        en: "current account",
+        bn: "চলতি হিসাব"
+    },
+    {
+        id: 36,
+        en: "student account",
+        bn: "স্টুডেন্ট অ্যাকাউন্ট"
+    },
+    {
+        id: 37,
+        en: "withdraw",
+        bn: "উত্তোলন করা"
+    },
+    {
+        id: 38,
+        en: "low-risk investment",
+        bn: "কম ঝুঁকিপূর্ণ বিনিয়োগ"
+    },
+    {
+        id: 39,
+        en: "mortgage",
+        bn: "বন্ধক"
+    },
+    {
+        id: 40,
+        en: "grace period",
+        bn: "ছাড়ের সময় (গ্রেস পিরিয়ড)"
+    },
+    {
+        id: 41,
+        en: "budget deficit",
+        bn: "বাজেট ঘাটতি"
+    },
+    {
+        id: 42,
+        en: "retail voucher",
+        bn: "খুচরা ভাউচার"
+    },
+    {
+        id: 43,
+        en: "coupon",
+        bn: "কুপন"
+    },
+    {
+        id: 44,
+        en: "counterfeit money",
+        bn: "জাল টাকা"
+    },
+    {
+        id: 45,
+        en: "public money",
+        bn: "জনগণের অর্থ"
+    },
+    {
+        id: 46,
+        en: "taxpayers' money",
+        bn: "করদাতার অর্থ"
+    },
+    {
+        id: 47,
+        en: "debt",
+        bn: "ঋণ"
+    },
+    {
+        id: 48,
+        en: "interest-free credit",
+        bn: "সুদ-মুক্ত ঋণ"
+    },
+    {
+        id: 49,
+        en: "purchase",
+        bn: "ক্রয় করা"
+    },
+    {
+        id: 50,
+        en: "partial refund",
+        bn: "আংশিক অর্থ ফেরত"
+    },
+    {
+        id: 51,
+        en: "annuity",
+        bn: "বার্ষিক ভাতা বা কিস্তি"
+    },
+    {
+        id: 52,
+        en: "non-refundable",
+        bn: "অ-ফেরতযোগ্য"
+    },
+    {
+        id: 53,
+        en: "MasterCard",
+        bn: "মাস্টারকার্ড"
+    },
+    {
+        id: 54,
+        en: "VISA",
+        bn: "ভিসা কার্ড"
+    },
+    {
+        id: 55,
+        en: "distribution costs",
+        bn: "বিতরণ খরচ"
+    },
+    {
+        id: 56,
+        en: "income",
+        bn: "আয়"
+    },
+    {
+        id: 57,
+        en: "finance department",
+        bn: "অর্থ বিভাগ"
+    },
+    {
+        id: 58,
+        en: "family finances",
+        bn: "পারিবারিক অর্থায়ন"
+    },
+    {
+        id: 59,
+        en: "duty-free store",
+        bn: "শুল্কমুক্ত দোকান"
+    },
+    {
+        id: 60,
+        en: "science",
+        bn: "বিজ্ঞান"
+    },
+    {
+        id: 61,
+        en: "politics",
+        bn: "রাজনীতি"
+    },
+    {
+        id: 62,
+        en: "history",
+        bn: "ইতিহাস"
+    },
+    {
+        id: 63,
+        en: "biology",
+        bn: "জীববিদ্যা"
+    },
+    {
+        id: 64,
+        en: "architecture",
+        bn: "স্থাপত্যবিদ্যা"
+    },
+    {
+        id: 65,
+        en: "law",
+        bn: "আইন"
+    },
+    {
+        id: 66,
+        en: "geography",
+        bn: "ভূগোল"
+    },
+    {
+        id: 67,
+        en: "archaeology",
+        bn: "প্রত্নতত্ত্ব"
+    },
+    {
+        id: 68,
+        en: "literature",
+        bn: "সাহিত্য"
+    },
+    {
+        id: 69,
+        en: "business management",
+        bn: "ব্যবসা ব্যবস্থাপনা"
+    },
+    {
+        id: 70,
+        en: "agriculture",
+        bn: "কৃষি"
+    },
+    {
+        id: 71,
+        en: "statistics",
+        bn: "পরিসংখ্যান"
+    },
+    {
+        id: 72,
+        en: "mathematics",
+        bn: "গণিত"
+    },
+    {
+        id: 73,
+        en: "logic",
+        bn: "যুক্তিবিদ্যা"
+    },
+    {
+        id: 74,
+        en: "physics",
+        bn: "পদার্থবিদ্যা"
+    },
+    {
+        id: 75,
+        en: "psychology",
+        bn: "মনোবিজ্ঞান"
+    },
+    {
+        id: 76,
+        en: "anthropology",
+        bn: "নৃবিজ্ঞান"
+    },
+    {
+        id: 77,
+        en: "economics",
+        bn: "অর্থনীতি"
+    },
+    {
+        id: 78,
+        en: "philosophy",
+        bn: "দর্শন"
+    },
+    {
+        id: 79,
+        en: "performing arts",
+        bn: "পারফর্মিং আর্টস (মঞ্চকলা)"
+    },
+    {
+        id: 80,
+        en: "visual arts",
+        bn: "দৃশ্যমান কলা (ভিজ্যুয়াল আর্টস)"
+    },
+    {
+        id: 81,
+        en: "chemistry",
+        bn: "রসায়ন"
+    },
+    {
+        id: 82,
+        en: "humanities",
+        bn: "মানবিক"
+    },
+    {
+        id: 83,
+        en: "field",
+        bn: "মাঠ"
+    },
+    {
+        id: 84,
+        en: "footbridge",
+        bn: "পায়ে হাঁটা সেতু"
+    },
+    {
+        id: 85,
+        en: "environment",
+        bn: "পরিবেশ"
+    },
+    {
+        id: 86,
+        en: "waterfall",
+        bn: "জলপ্রপাত"
+    },
+    {
+        id: 87,
+        en: "river",
+        bn: "নদী"
+    },
+    {
+        id: 88,
+        en: "mountain",
+        bn: "পর্বত"
+    },
+    {
+        id: 89,
+        en: "forest",
+        bn: "বন"
+    },
+    {
+        id: 90,
+        en: "village",
+        bn: "গ্রাম"
+    },
+    {
+        id: 91,
+        en: "coast",
+        bn: "উপকূল"
+    },
+    {
+        id: 92,
+        en: "reef",
+        bn: "প্রবালপ্রাচীর"
+    },
+    {
+        id: 93,
+        en: "lake",
+        bn: "হ্রদ"
+    },
+    {
+        id: 94,
+        en: "valley",
+        bn: "উপত্যকা"
+    },
+    {
+        id: 95,
+        en: "hill",
+        bn: "পাহাড়"
+    },
+    {
+        id: 96,
+        en: "cliff",
+        bn: "খাড়া পাহাড়"
+    },
+    {
+        id: 97,
+        en: "island",
+        bn: "দ্বীপ"
+    },
+    {
+        id: 98,
+        en: "peninsula",
+        bn: "উপদ্বীপ"
+    },
+    {
+        id: 99,
+        en: "earthquake",
+        bn: "ভূমিকম্প"
+    },
+    {
+        id: 100,
+        en: "avalanche",
+        bn: "তুষারধস"
+    },
+    {
+        id: 101,
+        en: "tornado",
+        bn: "টর্নেডো"
+    },
+    {
+        id: 102,
+        en: "typhoon",
+        bn: "টাইফুন"
+    },
+    {
+        id: 103,
+        en: "desertification",
+        bn: "মরুকরণ"
+    },
+    {
+        id: 104,
+        en: "volcano",
+        bn: "আগ্নেয়গিরি"
+    },
+    {
+        id: 105,
+        en: "disaster",
+        bn: "বিপর্যয়"
+    },
+    {
+        id: 106,
+        en: "catastrophe",
+        bn: "মহা বিপর্যয়"
+    },
+    {
+        id: 107,
+        en: "erosion",
+        bn: "ক্ষয়"
+    },
+    {
+        id: 108,
+        en: "landslides",
+        bn: "ভূমিধস"
+    },
+    {
+        id: 109,
+        en: "storm",
+        bn: "ঝড়"
+    },
+    {
+        id: 110,
+        en: "flood",
+        bn: "বন্যা"
+    },
+    {
+        id: 111,
+        en: "hurricane",
+        bn: "হারিকেন"
+    },
+    {
+        id: 112,
+        en: "pond",
+        bn: "পুকুর"
+    },
+    {
+        id: 113,
+        en: "jungle",
+        bn: "জঙ্গল"
+    },
+    {
+        id: 114,
+        en: "oasis",
+        bn: "মরূদ্যান"
+    },
+    {
+        id: 115,
+        en: "dam",
+        bn: "বাঁধ"
+    },
+    {
+        id: 116,
+        en: "canyon",
+        bn: "গভীর গিরিখাত"
+    },
+    {
+        id: 117,
+        en: "greenhouse effect",
+        bn: "গ্রিনহাউস প্রতিক্রিয়া"
+    },
+    {
+        id: 118,
+        en: "acid rain",
+        bn: "এসিড বৃষ্টি"
+    },
+    {
+        id: 119,
+        en: "global warming",
+        bn: "বৈশ্বিক উষ্ণায়ন"
+    },
+    {
+        id: 120,
+        en: "carbon dioxide",
+        bn: "কার্বন ডাই অক্সাইড"
+    },
+    {
+        id: 121,
+        en: "burning fossil",
+        bn: "জীবাশ্ম পোড়ানো"
+    },
+    {
+        id: 122,
+        en: "exhaust fumes",
+        bn: "নির্গত ধোঁয়া"
+    },
+    {
+        id: 123,
+        en: "deforestation",
+        bn: "বন উজাড়"
+    },
+    {
+        id: 124,
+        en: "nitrogen oxide",
+        bn: "নাইট্রোজেন অক্সাইড"
+    },
+    {
+        id: 125,
+        en: "smog",
+        bn: "ধোঁয়াশা"
+    },
+    {
+        id: 126,
+        en: "climate",
+        bn: "জলবায়ু"
+    },
+    {
+        id: 127,
+        en: "pollution",
+        bn: "দূষণ"
+    },
+    {
+        id: 128,
+        en: "temperature",
+        bn: "তাপমাত্রা"
+    },
+    {
+        id: 129,
+        en: "power plants",
+        bn: "বিদ্যুৎ কেন্দ্র"
+    },
+    {
+        id: 130,
+        en: "landfill",
+        bn: "ময়লা ফেলার জায়গা"
+    },
+    {
+        id: 131,
+        en: "cattle",
+        bn: "গবাদি পশু"
+    },
+    {
+        id: 132,
+        en: "wind turbine",
+        bn: "উইন্ড টারবাইন (বায়ুকল)"
+    },
+    {
+        id: 133,
+        en: "solar power",
+        bn: "সৌরশক্তি"
+    },
+    {
+        id: 134,
+        en: "hydroelectric power",
+        bn: "জলবিদ্যুৎ"
+    },
+    {
+        id: 135,
+        en: "renewable",
+        bn: "নবায়নযোগ্য"
+    },
+    {
+        id: 136,
+        en: "source of energy",
+        bn: "শক্তির উৎস"
+    },
+    {
+        id: 137,
+        en: "reliable",
+        bn: "নির্ভরযোগ্য"
+    },
+    {
+        id: 138,
+        en: "solar panels",
+        bn: "সৌর প্যানেল"
+    },
+    {
+        id: 139,
+        en: "environmentally friendly",
+        bn: "পরিবেশবান্ধব"
+    },
+    {
+        id: 140,
+        en: "oxygen",
+        bn: "অক্সিজেন"
+    },
+    {
+        id: 141,
+        en: "chemical-free",
+        bn: "রাসায়নিক মুক্ত"
+    },
+    {
+        id: 142,
+        en: "desert",
+        bn: "মরুভূমি"
+    },
+    {
+        id: 143,
+        en: "degradation",
+        bn: "অবক্ষয়"
+    },
+    {
+        id: 144,
+        en: "vegetation",
+        bn: "গাছপালা"
+    },
+    {
+        id: 145,
+        en: "sea level",
+        bn: "সমুদ্রপৃষ্ঠ"
+    },
+    {
+        id: 146,
+        en: "ocean currents",
+        bn: "সমুদ্রস্রোত"
+    },
+    {
+        id: 147,
+        en: "soil conditioner",
+        bn: "মাটি শোধনকারী"
+    },
+    {
+        id: 148,
+        en: "coal",
+        bn: "কয়লা"
+    },
+    {
+        id: 149,
+        en: "fossil fuels",
+        bn: "জীবাশ্ম জ্বালানী"
+    },
+    {
+        id: 150,
+        en: "firewood",
+        bn: "জ্বালানী কাঠ"
+    },
+    {
+        id: 151,
+        en: "drought",
+        bn: "খরা"
+    },
+    {
+        id: 152,
+        en: "contaminated",
+        bn: "দূষিত"
+    },
+    {
+        id: 153,
+        en: "birds of prey",
+        bn: "শিকারী পাখি"
+    },
+    {
+        id: 154,
+        en: "seabirds",
+        bn: "সামুদ্রিক পাখি"
+    },
+    {
+        id: 155,
+        en: "poultry and game",
+        bn: "হাঁস-মুরগি ও শিকারের প্রাণী"
+    },
+    {
+        id: 156,
+        en: "mammals",
+        bn: "স্তন্যপায়ী"
+    },
+    {
+        id: 157,
+        en: "cetacean",
+        bn: "তিমিজাতীয় প্রাণী"
+    },
+    {
+        id: 158,
+        en: "whale",
+        bn: "তিমি"
+    },
+    {
+        id: 159,
+        en: "primates",
+        bn: "প্রাইমেট (বানরজাতীয়)"
+    },
+    {
+        id: 160,
+        en: "rodents",
+        bn: "ইঁদুরজাতীয় প্রাণী"
+    },
+    {
+        id: 161,
+        en: "fish",
+        bn: "মাছ"
+    },
+    {
+        id: 162,
+        en: "amphibian",
+        bn: "উভচর"
+    },
+    {
+        id: 163,
+        en: "reptile",
+        bn: "সরীসৃপ"
+    },
+    {
+        id: 164,
+        en: "insects",
+        bn: "পোকামাকড়"
+    },
+    {
+        id: 165,
+        en: "octopus",
+        bn: "অক্টোপাস"
+    },
+    {
+        id: 166,
+        en: "phylum",
+        bn: "পর্ব"
+    },
+    {
+        id: 167,
+        en: "class",
+        bn: "শ্রেণী"
+    },
+    {
+        id: 168,
+        en: "order",
+        bn: "বর্গ"
+    },
+    {
+        id: 169,
+        en: "family",
+        bn: "গোত্র"
+    },
+    {
+        id: 170,
+        en: "genus",
+        bn: "গণ"
+    },
+    {
+        id: 171,
+        en: "species",
+        bn: "প্রজাতি"
+    },
+    {
+        id: 172,
+        en: "livestock",
+        bn: "গবাদি পশু"
+    },
+    {
+        id: 173,
+        en: "creature",
+        bn: "প্রাণী / জীব"
+    },
+    {
+        id: 174,
+        en: "lion",
+        bn: "সিংহ"
+    },
+    {
+        id: 175,
+        en: "penguin",
+        bn: "পেঙ্গুইন"
+    },
+    {
+        id: 176,
+        en: "mushroom",
+        bn: "মাশরুম"
+    },
+    {
+        id: 177,
+        en: "fungus",
+        bn: "ছত্রাক"
+    },
+    {
+        id: 178,
+        en: "leaves",
+        bn: "পাতা"
+    },
+    {
+        id: 179,
+        en: "seed",
+        bn: "বীজ"
+    },
+    {
+        id: 180,
+        en: "core",
+        bn: "মজ্জা / কেন্দ্র"
+    },
+    {
+        id: 181,
+        en: "bark",
+        bn: "গাছের বাকল"
+    },
+    {
+        id: 182,
+        en: "trunk",
+        bn: "গাছের গুঁড়ি"
+    },
+    {
+        id: 183,
+        en: "twig",
+        bn: "ছোট ডাল"
+    },
+    {
+        id: 184,
+        en: "branch",
+        bn: "শাখা / ডাল"
+    },
+    {
+        id: 185,
+        en: "flower",
+        bn: "ফুল"
+    },
+    {
+        id: 186,
+        en: "stem",
+        bn: "কাণ্ড"
+    },
+    {
+        id: 187,
+        en: "roots",
+        bn: "শিকড়"
+    },
+    {
+        id: 188,
+        en: "cluster",
+        bn: "থোকা / গুচ্ছ"
+    },
+    {
+        id: 189,
+        en: "fertilizer",
+        bn: "সার"
+    },
+    {
+        id: 190,
+        en: "South America",
+        bn: "দক্ষিণ আমেরিকা"
+    },
+    {
+        id: 191,
+        en: "North America",
+        bn: "উত্তর আমেরিকা"
+    },
+    {
+        id: 192,
+        en: "Africa",
+        bn: "আফ্রিকা"
+    },
+    {
+        id: 193,
+        en: "Asia",
+        bn: "এশিয়া"
+    },
+    {
+        id: 194,
+        en: "Europe",
+        bn: "ইউরোপ"
+    },
+    {
+        id: 195,
+        en: "Australia and Antarctica",
+        bn: "অস্ট্রেলিয়া এবং অ্যান্টার্কটিকা"
+    },
+    {
+        id: 196,
+        en: "Egypt",
+        bn: "মিশর"
+    },
+    {
+        id: 197,
+        en: "Mexico",
+        bn: "মেক্সিকো"
+    },
+    {
+        id: 198,
+        en: "France",
+        bn: "ফ্রান্স"
+    },
+    {
+        id: 199,
+        en: "Indonesia",
+        bn: "ইন্দোনেশিয়া"
+    },
+    {
+        id: 200,
+        en: "Turkey",
+        bn: "তুরস্ক"
+    },
+    {
+        id: 201,
+        en: "England",
+        bn: "ইংল্যান্ড"
+    },
+    {
+        id: 202,
+        en: "Germany",
+        bn: "জার্মানি"
+    },
+    {
+        id: 203,
+        en: "China",
+        bn: "চীন"
+    },
+    {
+        id: 204,
+        en: "Greece",
+        bn: "গ্রীস"
+    },
+    {
+        id: 205,
+        en: "Brazil",
+        bn: "ব্রাজিল"
+    },
+    {
+        id: 206,
+        en: "India",
+        bn: "ভারত"
+    },
+    {
+        id: 207,
+        en: "North Korea",
+        bn: "উত্তর কোরিয়া"
+    },
+    {
+        id: 208,
+        en: "Malaysia",
+        bn: "মালয়েশিয়া"
+    },
+    {
+        id: 209,
+        en: "New Zealand",
+        bn: "নিউজিল্যান্ড"
+    },
+    {
+        id: 210,
+        en: "Nigeria",
+        bn: "নাইজেরিয়া"
+    },
+    {
+        id: 211,
+        en: "Pakistan",
+        bn: "পাকিস্তান"
+    },
+    {
+        id: 212,
+        en: "Singapore",
+        bn: "সিঙ্গাপুর"
+    },
+    {
+        id: 213,
+        en: "Switzerland",
+        bn: "সুইজারল্যান্ড"
+    },
+    {
+        id: 214,
+        en: "United Kingdom",
+        bn: "যুক্তরাজ্য"
+    },
+    {
+        id: 215,
+        en: "Italy",
+        bn: "ইতালি"
+    },
+    {
+        id: 216,
+        en: "Dominican Republic",
+        bn: "ডোমিনিকান রিপাবলিক"
+    },
+    {
+        id: 217,
+        en: "Philippines",
+        bn: "ফিলিপাইন"
+    },
+    {
+        id: 218,
+        en: "Denmark",
+        bn: "ডেনমার্ক"
+    },
+    {
+        id: 219,
+        en: "linguistics",
+        bn: "ভাষাবিজ্ঞান"
+    },
+    {
+        id: 220,
+        en: "bilingual",
+        bn: "দ্বিভাষিক"
+    },
+    {
+        id: 221,
+        en: "trilingual",
+        bn: "ত্রিভাষিক"
+    },
+    {
+        id: 222,
+        en: "polyglot",
+        bn: "বহুভাষিক"
+    },
+    {
+        id: 223,
+        en: "Portuguese",
+        bn: "পর্তুগিজ"
+    },
+    {
+        id: 224,
+        en: "Mandarin",
+        bn: "ম্যান্ডারিন"
+    },
+    {
+        id: 225,
+        en: "Bengali",
+        bn: "বাংলা"
+    },
+    {
+        id: 226,
+        en: "Chinese",
+        bn: "চীনা"
+    },
+    {
+        id: 227,
+        en: "Hindi",
+        bn: "হিন্দি"
+    },
+    {
+        id: 228,
+        en: "Russian",
+        bn: "রাশিয়ান"
+    },
+    {
+        id: 229,
+        en: "Japanese",
+        bn: "জাপানি"
+    },
+    {
+        id: 230,
+        en: "German",
+        bn: "জার্মান"
+    },
+    {
+        id: 231,
+        en: "Punjabi",
+        bn: "পাঞ্জাবি"
+    },
+    {
+        id: 232,
+        en: "Thai",
+        bn: "থাই"
+    },
+    {
+        id: 233,
+        en: "Persian",
+        bn: "ফার্সি"
+    },
+    {
+        id: 234,
+        en: "Filipino",
+        bn: "ফিলিপিনো"
+    },
+    {
+        id: 235,
+        en: "French",
+        bn: "ফরাসি"
+    },
+    {
+        id: 236,
+        en: "Italian",
+        bn: "ইতালীয়"
+    },
+    {
+        id: 237,
+        en: "Greek",
+        bn: "গ্রীক"
+    },
+    {
+        id: 238,
+        en: "tourist",
+        bn: "পর্যটক"
+    },
+    {
+        id: 239,
+        en: "guided tour",
+        bn: "নির্দেশিত ভ্রমণ"
+    },
+    {
+        id: 240,
+        en: "ticket office",
+        bn: "টিকিট কাউন্টার"
+    },
+    {
+        id: 241,
+        en: "souvenir",
+        bn: "স্যুভেনিয়ার / স্মারক"
+    },
+    {
+        id: 242,
+        en: "trip",
+        bn: "সফর"
+    },
+    {
+        id: 243,
+        en: "guest",
+        bn: "অতিথি"
+    },
+    {
+        id: 244,
+        en: "reservation",
+        bn: "সংরক্ষণ / বুকিং"
+    },
+    {
+        id: 245,
+        en: "view",
+        bn: "দৃশ্য"
+    },
+    {
+        id: 246,
+        en: "culture",
+        bn: "সংস্কৃতি"
+    },
+    {
+        id: 247,
+        en: "memorable",
+        bn: "স্মরণীয়"
+    },
+    {
+        id: 248,
+        en: "single double bedded room",
+        bn: "সিঙ্গেল ডাবল বেড রুম"
+    },
+    {
+        id: 249,
+        en: "picnic",
+        bn: "বনভোজন"
+    },
+    {
+        id: 250,
+        en: "tourist attraction",
+        bn: "পর্যটক আকর্ষণ"
+    },
+    {
+        id: 251,
+        en: "hostel",
+        bn: "হোস্টেল"
+    },
+    {
+        id: 252,
+        en: "suite",
+        bn: "স্যুইট (হোটেলের বড় কামরা)"
+    },
+    {
+        id: 253,
+        en: "aquarium",
+        bn: "অ্যাকোয়ারিয়াম"
+    },
+    {
+        id: 254,
+        en: "train",
+        bn: "প্রশিক্ষণ দেওয়া"
+    },
+    {
+        id: 255,
+        en: "develop",
+        bn: "বিকাশ করা"
+    },
+    {
+        id: 256,
+        en: "collect",
+        bn: "সংগ্রহ করা"
+    },
+    {
+        id: 257,
+        en: "supervise",
+        bn: "তদারকি করা"
+    },
+    {
+        id: 258,
+        en: "mark",
+        bn: "চিহ্নিত করা"
+    },
+    {
+        id: 259,
+        en: "edit",
+        bn: "সম্পাদনা করা"
+    },
+    {
+        id: 260,
+        en: "revise",
+        bn: "সংশোধন করা"
+    },
+    {
+        id: 261,
+        en: "exhibit",
+        bn: "প্রদর্শন করা"
+    },
+    {
+        id: 262,
+        en: "donate",
+        bn: "দান করা"
+    },
+    {
+        id: 263,
+        en: "surpass",
+        bn: "ছাড়িয়ে যাওয়া"
+    },
+    {
+        id: 264,
+        en: "register",
+        bn: "নিবন্ধন করা"
+    },
+    {
+        id: 265,
+        en: "support",
+        bn: "সমর্থন করা"
+    },
+    {
+        id: 266,
+        en: "hunt",
+        bn: "শিকার করা"
+    },
+    {
+        id: 267,
+        en: "persuade",
+        bn: "প্ররোচিত করা"
+    },
+    {
+        id: 268,
+        en: "concentrate",
+        bn: "মনোযোগ দেওয়া"
+    },
+    {
+        id: 269,
+        en: "discuss",
+        bn: "আলোচনা করা"
+    },
+    {
+        id: 270,
+        en: "suggest",
+        bn: "পরামর্শ দেওয়া"
+    },
+    {
+        id: 271,
+        en: "arrange",
+        bn: "ব্যবস্থা করা"
+    },
+    {
+        id: 272,
+        en: "borrow",
+        bn: "ধার করা"
+    },
+    {
+        id: 273,
+        en: "immigrate",
+        bn: "অভিবাসন করা"
+    },
+    {
+        id: 274,
+        en: "review",
+        bn: "পর্যালোচনা করা"
+    },
+    {
+        id: 275,
+        en: "learn",
+        bn: "শেখা"
+    },
+    {
+        id: 276,
+        en: "touch",
+        bn: "স্পর্শ করা"
+    },
+    {
+        id: 277,
+        en: "energetic",
+        bn: "কর্মোদ্যম"
+    },
+    {
+        id: 278,
+        en: "social",
+        bn: "সামাজিক"
+    },
+    {
+        id: 279,
+        en: "ancient",
+        bn: "প্রাচীন"
+    },
+    {
+        id: 280,
+        en: "necessary",
+        bn: "প্রয়োজনীয়"
+    },
+    {
+        id: 281,
+        en: "fantastic",
+        bn: "চমৎকার"
+    },
+    {
+        id: 282,
+        en: "exciting",
+        bn: "উত্তেজনাপূর্ণ"
+    },
+    {
+        id: 283,
+        en: "fabulous",
+        bn: "দারুণ"
+    },
+    {
+        id: 284,
+        en: "dull",
+        bn: "নিস্তেজ / বিরক্তিকর"
+    },
+    {
+        id: 285,
+        en: "comfortable",
+        bn: "আরামদায়ক"
+    },
+    {
+        id: 286,
+        en: "convenient",
+        bn: "সুবিধাজনক"
+    },
+    {
+        id: 287,
+        en: "suitable",
+        bn: "উপযুক্ত"
+    },
+    {
+        id: 288,
+        en: "affordable",
+        bn: "সামর্থ্যের মধ্যে"
+    },
+    {
+        id: 289,
+        en: "voluntary",
+        bn: "স্বেচ্ছামূলক"
+    },
+    {
+        id: 290,
+        en: "mandatory / compulsory",
+        bn: "বাধ্যতামূলক"
+    },
+    {
+        id: 291,
+        en: "temporary",
+        bn: "অস্থায়ী"
+    },
+    {
+        id: 292,
+        en: "permanent",
+        bn: "স্থায়ী"
+    },
+    {
+        id: 293,
+        en: "Immense",
+        bn: "অপরিসীম"
+    },
+    {
+        id: 294,
+        en: "vast",
+        bn: "বিশাল"
+    },
+    {
+        id: 295,
+        en: "salty",
+        bn: "লবণাক্ত"
+    },
+    {
+        id: 296,
+        en: "extinct",
+        bn: "বিলুপ্ত"
+    },
+    {
+        id: 297,
+        en: "vulnerable",
+        bn: "ঝুঁকিপূর্ণ"
+    },
+    {
+        id: 298,
+        en: "pessimistic",
+        bn: "হতাশাবাদী"
+    },
+    {
+        id: 299,
+        en: "optimistic",
+        bn: "আশাবাদী"
+    },
+    {
+        id: 300,
+        en: "realistic",
+        bn: "বাস্তবসম্মত"
+    },
+    {
+        id: 301,
+        en: "practical",
+        bn: "ব্যবহারিক"
+    },
+    {
+        id: 302,
+        en: "knowledgeable",
+        bn: "জ্ঞানী"
+    },
+    {
+        id: 303,
+        en: "flexible",
+        bn: "নমনীয়"
+    },
+    {
+        id: 304,
+        en: "confident",
+        bn: "আত্মবিশ্বাসী"
+    },
+    {
+        id: 305,
+        en: "Western",
+        bn: "পশ্চিমা"
+    },
+    {
+        id: 306,
+        en: "intensive",
+        bn: "নিবিড়"
+    },
+    {
+        id: 307,
+        en: "tranquil",
+        bn: "প্রশান্ত"
+    },
+    {
+        id: 308,
+        en: "spectacular",
+        bn: "দর্শনীয়"
+    },
+    {
+        id: 309,
+        en: "intact",
+        bn: "অক্ষত"
+    },
+    {
+        id: 310,
+        en: "various",
+        bn: "বিভিন্ন"
+    },
+    {
+        id: 311,
+        en: "orienteering",
+        bn: "ওরিয়েন্টিয়ারিং (মানচিত্র দেখে পথ খোঁজার খেলা)"
+    },
+    {
+        id: 312,
+        en: "caving / spelunking",
+        bn: "গুহা অন্বেষণ"
+    },
+    {
+        id: 313,
+        en: "archery",
+        bn: "তীরন্দাজী"
+    },
+    {
+        id: 314,
+        en: "ice skating",
+        bn: "আইস স্কেটিং"
+    },
+    {
+        id: 315,
+        en: "scuba-diving",
+        bn: "স্কুবা ডাইভিং"
+    },
+    {
+        id: 316,
+        en: "snorkeling / snorkelling",
+        bn: "স্নরকেলিং (পানিতে সাঁতার কাটা)"
+    },
+    {
+        id: 317,
+        en: "skateboarding",
+        bn: "স্কেটবোর্ডিং"
+    },
+    {
+        id: 318,
+        en: "bowls",
+        bn: "বাউলস খেলা"
+    },
+    {
+        id: 319,
+        en: "darts",
+        bn: "ডার্টস খেলা"
+    },
+    {
+        id: 320,
+        en: "golf",
+        bn: "গলফ"
+    },
+    {
+        id: 321,
+        en: "billiards",
+        bn: "বিলিয়ার্ডস"
+    },
+    {
+        id: 322,
+        en: "photography",
+        bn: "ফটোগ্রাফি"
+    },
+    {
+        id: 323,
+        en: "painting",
+        bn: "চিত্রাঙ্কন"
+    },
+    {
+        id: 324,
+        en: "pottery",
+        bn: "মৃৎশিল্প"
+    },
+    {
+        id: 325,
+        en: "woodcarving",
+        bn: "কাঠ খোদাই"
+    },
+    {
+        id: 326,
+        en: "gardening",
+        bn: "বাগান করা"
+    },
+    {
+        id: 327,
+        en: "stamp collection",
+        bn: "ডাকটিকিট সংগ্রহ"
+    },
+    {
+        id: 328,
+        en: "embroidery",
+        bn: "সূচিকর্ম"
+    },
+    {
+        id: 329,
+        en: "climbing",
+        bn: "আরোহণ"
+    },
+    {
+        id: 330,
+        en: "chess",
+        bn: "দাবা"
+    },
+    {
+        id: 331,
+        en: "parachute",
+        bn: "প্যারাসুট"
+    },
+    {
+        id: 332,
+        en: "humid",
+        bn: "আর্দ্র"
+    },
+    {
+        id: 333,
+        en: "hot",
+        bn: "গরম"
+    },
+    {
+        id: 334,
+        en: "sticky",
+        bn: "ভ্যাপসা"
+    },
+    {
+        id: 335,
+        en: "breeze",
+        bn: "মৃদু বাতাস"
+    },
+    {
+        id: 336,
+        en: "chilly",
+        bn: "হিমশীতল"
+    },
+    {
+        id: 337,
+        en: "cold",
+        bn: "ঠান্ডা"
+    },
+    {
+        id: 338,
+        en: "cool",
+        bn: "শীতল"
+    },
+    {
+        id: 339,
+        en: "dry",
+        bn: "শুষ্ক"
+    },
+    {
+        id: 340,
+        en: "dusty",
+        bn: "ধুলোময়"
+    },
+    {
+        id: 341,
+        en: "freezing",
+        bn: "জমাট বাঁধা ঠান্ডা"
+    },
+    {
+        id: 342,
+        en: "warm",
+        bn: "উষ্ণ"
+    },
+    {
+        id: 343,
+        en: "wet",
+        bn: "ভেজা"
+    },
+    {
+        id: 344,
+        en: "weather forecast",
+        bn: "আবহাওয়ার পূর্বাভাস"
+    },
+    {
+        id: 345,
+        en: "antenna",
+        bn: "অ্যান্টেনা"
+    },
+    {
+        id: 346,
+        en: "moisture",
+        bn: "আর্দ্রতা"
+    },
+    {
+        id: 347,
+        en: "local library",
+        bn: "স্থানীয় গ্রন্থাগার"
+    },
+    {
+        id: 348,
+        en: "swimming pool",
+        bn: "সুইমিং পুল"
+    },
+    {
+        id: 349,
+        en: "cafeteria",
+        bn: "ক্যাফেটেরিয়া"
+    },
+    {
+        id: 350,
+        en: "cottage",
+        bn: "কুটির"
+    },
+    {
+        id: 351,
+        en: "parliament",
+        bn: "সংসদ"
+    },
+    {
+        id: 352,
+        en: "accommodation",
+        bn: "থাকার জায়গা"
+    },
+    {
+        id: 353,
+        en: "restaurant",
+        bn: "রেস্তোরাঁ"
+    },
+    {
+        id: 354,
+        en: "canteen",
+        bn: "ক্যান্টিন"
+    },
+    {
+        id: 355,
+        en: "cafe",
+        bn: "ক্যাফে"
+    },
+    {
+        id: 356,
+        en: "bookshop",
+        bn: "বইয়ের দোকান"
+    },
+    {
+        id: 357,
+        en: "sports centre",
+        bn: "ক্রীড়া কেন্দ্র"
+    },
+    {
+        id: 358,
+        en: "city council",
+        bn: "সিটি কাউন্সিল"
+    },
+    {
+        id: 359,
+        en: "dance studio",
+        bn: "নাচের স্টুডিও"
+    },
+    {
+        id: 360,
+        en: "park",
+        bn: "পার্ক"
+    },
+    {
+        id: 361,
+        en: "conversation club",
+        bn: "কথোপকথন ক্লাব"
+    },
+    {
+        id: 362,
+        en: "kindergarten",
+        bn: "কিন্ডারগার্টেন"
+    },
+    {
+        id: 363,
+        en: "helmet",
+        bn: "হেলমেট"
+    },
+    {
+        id: 364,
+        en: "light",
+        bn: "আলো / বাতি"
+    },
+    {
+        id: 365,
+        en: "musical instrument",
+        bn: "বাদ্যযন্ত্র"
+    },
+    {
+        id: 366,
+        en: "cassette",
+        bn: "ক্যাসেট"
+    },
+    {
+        id: 367,
+        en: "silicon chip",
+        bn: "সিলিকন চিপ"
+    },
+    {
+        id: 368,
+        en: "digital monitor",
+        bn: "ডিজিটাল মনিটর"
+    },
+    {
+        id: 369,
+        en: "gadget",
+        bn: "গ্যাজেট"
+    },
+    {
+        id: 370,
+        en: "device",
+        bn: "ডিভাইস / যন্ত্র"
+    },
+    {
+        id: 371,
+        en: "screen",
+        bn: "পর্দা / স্ক্রিন"
+    },
+    {
+        id: 372,
+        en: "breaks",
+        bn: "ব্রেক"
+    },
+    {
+        id: 373,
+        en: "wheels",
+        bn: "চাকা"
+    },
+    {
+        id: 374,
+        en: "mechanical pencil",
+        bn: "মেকানিক্যাল পেন্সিল"
+    },
+    {
+        id: 375,
+        en: "disk",
+        bn: "ডিস্ক"
+    },
+    {
+        id: 376,
+        en: "backpack",
+        bn: "ব্যাকপ্যাক (পিঠের ব্যাগ)"
+    },
+    {
+        id: 377,
+        en: "Opera",
+        bn: "অপেরা"
+    },
+    {
+        id: 378,
+        en: "Orchestra",
+        bn: "অর্কেস্ট্রা"
+    },
+    {
+        id: 379,
+        en: "concert",
+        bn: "কনসার্ট"
+    },
+    {
+        id: 380,
+        en: "symphony",
+        bn: "সিম্ফনি"
+    },
+    {
+        id: 381,
+        en: "the press",
+        bn: "সংবাদপত্র / প্রেস"
+    },
+    {
+        id: 382,
+        en: "conductor",
+        bn: "কন্ডাক্টর"
+    },
+    {
+        id: 383,
+        en: "vocalist",
+        bn: "কণ্ঠশিল্পী"
+    },
+    {
+        id: 384,
+        en: "audience",
+        bn: "দর্শক / শ্রোতা"
+    },
+    {
+        id: 385,
+        en: "festival",
+        bn: "উৎসব"
+    },
+    {
+        id: 386,
+        en: "carnival",
+        bn: "কার্নিভাল"
+    },
+    {
+        id: 387,
+        en: "exhibition",
+        bn: "প্রদর্শনী"
+    },
+    {
+        id: 388,
+        en: "classical music",
+        bn: "শাস্ত্রীয় সঙ্গীত"
+    },
+    {
+        id: 389,
+        en: "theatre",
+        bn: "থিয়েটার"
+    },
+    {
+        id: 390,
+        en: "cinemas",
+        bn: "সিনেমা"
+    },
+    {
+        id: 391,
+        en: "art gallery",
+        bn: "আর্ট গ্যালারি"
+    },
+    {
+        id: 392,
+        en: "museum",
+        bn: "যাদুঘর"
+    },
+    {
+        id: 393,
+        en: "ballet",
+        bn: "ব্যালে (নাচ)"
+    },
+    {
+        id: 394,
+        en: "television",
+        bn: "টেলিভিশন"
+    },
+    {
+        id: 395,
+        en: "radio",
+        bn: "রেডিও"
+    },
+    {
+        id: 396,
+        en: "graphics",
+        bn: "গ্রাফিক্স"
+    },
+    {
+        id: 397,
+        en: "newspaper",
+        bn: "সংবাদপত্র"
+    },
+    {
+        id: 398,
+        en: "passport photo",
+        bn: "পাসপোর্ট ছবি"
+    },
+    {
+        id: 399,
+        en: "state",
+        bn: "রাষ্ট্র / অবস্থা"
+    },
+    {
+        id: 400,
+        en: "government",
+        bn: "সরকার"
+    },
+    {
+        id: 401,
+        en: "individual",
+        bn: "ব্যক্তি"
+    },
+    {
+        id: 402,
+        en: "variety",
+        bn: "বৈচিত্র্য"
+    },
+    {
+        id: 403,
+        en: "private sector",
+        bn: "বেসরকারি খাত"
+    },
+    {
+        id: 404,
+        en: "practice",
+        bn: "অনুশীলন"
+    },
+    {
+        id: 405,
+        en: "gender",
+        bn: "লিঙ্গ"
+    },
+    {
+        id: 406,
+        en: "creativity",
+        bn: "সৃজনশীলতা"
+    },
+    {
+        id: 407,
+        en: "original inhabitant",
+        bn: "আদি বাসিন্দা"
+    },
+    {
+        id: 408,
+        en: "indigenous",
+        bn: "আদিবাসী"
+    },
+    {
+        id: 409,
+        en: "demonstration",
+        bn: "প্রদর্শন / বিক্ষোভ"
+    },
+    {
+        id: 410,
+        en: "strike",
+        bn: "ধর্মঘট"
+    },
+    {
+        id: 411,
+        en: "entrance",
+        bn: "প্রবেশদ্বার"
+    },
+    {
+        id: 412,
+        en: "circuit",
+        bn: "সার্কিট"
+    },
+    {
+        id: 413,
+        en: "guarantee",
+        bn: "গ্যারান্টি"
+    },
+    {
+        id: 414,
+        en: "dialogue",
+        bn: "সংলাপ"
+    },
+    {
+        id: 415,
+        en: "commerce",
+        bn: "বাণিজ্য"
+    },
+    {
+        id: 416,
+        en: "carriage",
+        bn: "বহন / গাড়ি"
+    },
+    {
+        id: 417,
+        en: "narrative",
+        bn: "বিবরণ"
+    },
+    {
+        id: 418,
+        en: "chocolate",
+        bn: "চকোলেট"
+    },
+    {
+        id: 419,
+        en: "satellite",
+        bn: "কৃত্রিম উপগ্রহ"
+    },
+    {
+        id: 420,
+        en: "decision",
+        bn: "সিদ্ধান্ত"
+    },
+    {
+        id: 421,
+        en: "prototype",
+        bn: "প্রোটোটাইপ (প্রাথমিক মডেল)"
+    },
+    {
+        id: 422,
+        en: "attitude",
+        bn: "দৃষ্টিভঙ্গি"
+    },
+    {
+        id: 423,
+        en: "daily routine",
+        bn: "দৈনন্দিন রুটিন"
+    },
+    {
+        id: 424,
+        en: "personal fulfillment/fulfilment",
+        bn: "ব্যক্তিগত পরিপূর্ণতা"
+    },
+    {
+        id: 425,
+        en: "activity",
+        bn: "কার্যকলাপ"
+    },
+    {
+        id: 426,
+        en: "recipient",
+        bn: "প্রাপক"
+    },
+    {
+        id: 427,
+        en: "ultrasound",
+        bn: "আল্ট্রাসাউন্ড"
+    },
+    {
+        id: 428,
+        en: "pedestrian safety",
+        bn: "পথচারী নিরাপত্তা"
+    },
+    {
+        id: 429,
+        en: "traffic jams",
+        bn: "ট্রাফিক জ্যাম"
+    },
+    {
+        id: 430,
+        en: "procedures",
+        bn: "পদ্ধতি"
+    },
+    {
+        id: 431,
+        en: "creation",
+        bn: "সৃষ্টি"
+    },
+    {
+        id: 432,
+        en: "prize",
+        bn: "পুরস্কার"
+    },
+    {
+        id: 433,
+        en: "junior",
+        bn: "কনিষ্ঠ"
+    },
+    {
+        id: 434,
+        en: "senior",
+        bn: "জ্যেষ্ঠ"
+    },
+    {
+        id: 435,
+        en: "opportunity",
+        bn: "সুযোগ"
+    },
+    {
+        id: 436,
+        en: "driving license",
+        bn: "ড্রাইভিং লাইসেন্স"
+    },
+    {
+        id: 437,
+        en: "process",
+        bn: "প্রক্রিয়া"
+    },
+    {
+        id: 438,
+        en: "literary",
+        bn: "সাহিত্যিক"
+    },
+    {
+        id: 439,
+        en: "man-made",
+        bn: "মানবসৃষ্ট"
+    },
+    {
+        id: 440,
+        en: "republicans",
+        bn: "রিপাবলিকান"
+    },
+    {
+        id: 441,
+        en: "umbrella",
+        bn: "ছাতা"
+    },
+    {
+        id: 442,
+        en: "frequently updated",
+        bn: "ঘন ঘন আপডেট করা"
+    },
+    {
+        id: 443,
+        en: "waiting list",
+        bn: "অপেক্ষার তালিকা"
+    },
+    {
+        id: 444,
+        en: "sewer systems",
+        bn: "পয়ঃনিষ্কাশন ব্যবস্থা"
+    },
+    {
+        id: 445,
+        en: "liberal democracy",
+        bn: "উদার গণতন্ত্র"
+    },
+    {
+        id: 446,
+        en: "democrats",
+        bn: "ডেমোক্র্যাটস"
+    },
+    {
+        id: 447,
+        en: "lunar calendar",
+        bn: "চন্দ্র পঞ্জিকা"
+    },
+    {
+        id: 448,
+        en: "libertarian",
+        bn: "স্বাধীনতাবাদী"
+    },
+    {
+        id: 449,
+        en: "burger",
+        bn: "বার্গার"
+    },
+    {
+        id: 450,
+        en: "videos",
+        bn: "ভিডিও"
+    },
+    {
+        id: 451,
+        en: "nature conservation",
+        bn: "প্রকৃতি সংরক্ষণ"
+    },
+    {
+        id: 452,
+        en: "life expectancy",
+        bn: "গড় আয়ু"
+    },
+    {
+        id: 453,
+        en: "fund-raising event",
+        bn: "তহবিল সংগ্রহ অনুষ্ঠান"
+    },
+    {
+        id: 454,
+        en: "magnet",
+        bn: "চুম্বক"
+    },
+    {
+        id: 455,
+        en: "dialect",
+        bn: "উপভাষা"
+    },
+    {
+        id: 456,
+        en: "ramification",
+        bn: "প্রভাব / ফলাফল"
+    },
+    {
+        id: 457,
+        en: "straight",
+        bn: "সোজা"
+    },
+    {
+        id: 458,
+        en: "farewell",
+        bn: "বিদায়"
+    },
+    {
+        id: 459,
+        en: "welfare",
+        bn: "কল্যাণ"
+    },
+    {
+        id: 460,
+        en: "encyclopedia",
+        bn: "বিশ্বকোষ"
+    },
+    {
+        id: 461,
+        en: "evolution",
+        bn: "বিবর্তন"
+    },
+    {
+        id: 462,
+        en: "revolution",
+        bn: "বিপ্লব"
+    },
+    {
+        id: 463,
+        en: "illiteracy",
+        bn: "নিরক্ষরতা"
+    },
+    {
+        id: 464,
+        en: "robot",
+        bn: "রোবট"
+    },
+    {
+        id: 465,
+        en: "proficiency",
+        bn: "দক্ষতা"
+    },
+    {
+        id: 466,
+        en: "sufficient",
+        bn: "পর্যাপ্ত"
+    },
+    {
+        id: 467,
+        en: "course outline",
+        bn: "কোর্সের রূপরেখা"
+    },
+    {
+        id: 468,
+        en: "group discussion",
+        bn: "দলগত আলোচনা"
+    },
+    {
+        id: 469,
+        en: "handout",
+        bn: "হ্যান্ডআউট (বিতরণী পত্র)"
+    },
+    {
+        id: 470,
+        en: "written work",
+        bn: "লিখিত কাজ"
+    },
+    {
+        id: 471,
+        en: "report writing",
+        bn: "প্রতিবেদন লেখা"
+    },
+    {
+        id: 472,
+        en: "research",
+        bn: "গবেষণা"
+    },
+    {
+        id: 473,
+        en: "Proofreading",
+        bn: "প্রুফরিডিং (ভুল সংশোধন)"
+    },
+    {
+        id: 474,
+        en: "experiment",
+        bn: "পরীক্ষা"
+    },
+    {
+        id: 475,
+        en: "experience",
+        bn: "অভিজ্ঞতা"
+    },
+    {
+        id: 476,
+        en: "reference",
+        bn: "তথ্যসূত্র (রেফারেন্স)"
+    },
+    {
+        id: 477,
+        en: "textbook",
+        bn: "পাঠ্যবই"
+    },
+    {
+        id: 478,
+        en: "dictionary",
+        bn: "অভিধান"
+    },
+    {
+        id: 479,
+        en: "laptop",
+        bn: "ল্যাপটপ"
+    },
+    {
+        id: 480,
+        en: "printer",
+        bn: "প্রিন্টার"
+    },
+    {
+        id: 481,
+        en: "student advisor",
+        bn: "ছাত্র উপদেষ্টা"
+    },
+    {
+        id: 482,
+        en: "teamwork",
+        bn: "দলগত কাজ"
+    },
+    {
+        id: 483,
+        en: "module",
+        bn: "মডিউল"
+    },
+    {
+        id: 484,
+        en: "topic",
+        bn: "বিষয়"
+    },
+    {
+        id: 485,
+        en: "assessment",
+        bn: "মূল্যায়ন"
+    },
+    {
+        id: 486,
+        en: "library",
+        bn: "গ্রন্থাগার"
+    },
+    {
+        id: 487,
+        en: "department",
+        bn: "বিভাগ"
+    },
+    {
+        id: 488,
+        en: "computer centre",
+        bn: "কম্পিউটার কেন্দ্র"
+    },
+    {
+        id: 489,
+        en: "classroom",
+        bn: "শ্রেণীকক্ষ"
+    },
+    {
+        id: 490,
+        en: "lecture",
+        bn: "বক্তৃতা"
+    },
+    {
+        id: 491,
+        en: "tutor",
+        bn: "গৃহশিক্ষক / টিউটর"
+    },
+    {
+        id: 492,
+        en: "main hall",
+        bn: "প্রধান হল"
+    },
+    {
+        id: 493,
+        en: "attendance",
+        bn: "উপস্থিতি"
+    },
+    {
+        id: 494,
+        en: "deadline",
+        bn: "সময়সীমা"
+    },
+    {
+        id: 495,
+        en: "give a talk",
+        bn: "বক্তব্য রাখা"
+    },
+    {
+        id: 496,
+        en: "speech",
+        bn: "ভাষণ"
+    },
+    {
+        id: 497,
+        en: "computer laboratory",
+        bn: "কম্পিউটার ল্যাবরেটরি"
+    },
+    {
+        id: 498,
+        en: "certificate",
+        bn: "সনদপত্র"
+    },
+    {
+        id: 499,
+        en: "diploma",
+        bn: "ডিপ্লোমা"
+    },
+    {
+        id: 500,
+        en: "placement test",
+        bn: "প্লেসমেন্ট টেস্ট (যোগ্যতা যাচাই পরীক্ষা)"
+    },
+    {
+        id: 501,
+        en: "overseas students",
+        bn: "বিদেশী শিক্ষার্থী"
+    },
+    {
+        id: 502,
+        en: "full-time",
+        bn: "পূর্ণকালীন"
+    },
+    {
+        id: 503,
+        en: "facilities",
+        bn: "সুযোগ-সুবিধা"
+    },
+    {
+        id: 504,
+        en: "college",
+        bn: "কলেজ"
+    },
+    {
+        id: 505,
+        en: "dining room",
+        bn: "খাবার ঘর"
+    },
+    {
+        id: 506,
+        en: "specialist",
+        bn: "বিশেষজ্ঞ"
+    },
+    {
+        id: 507,
+        en: "knowledge",
+        bn: "জ্ঞান"
+    },
+    {
+        id: 508,
+        en: "international",
+        bn: "আন্তর্জাতিক"
+    },
+    {
+        id: 509,
+        en: "homestay",
+        bn: "হোমস্টে (স্থানীয় পরিবারের সাথে থাকা)"
+    },
+    {
+        id: 510,
+        en: "primary",
+        bn: "প্রাথমিক"
+    },
+    {
+        id: 511,
+        en: "secondary",
+        bn: "মাধ্যমিক"
+    },
+    {
+        id: 512,
+        en: "intermediate",
+        bn: "মধ্যবর্তী"
+    },
+    {
+        id: 513,
+        en: "media room",
+        bn: "মিডিয়া রুম"
+    },
+    {
+        id: 514,
+        en: "resources room",
+        bn: "রিসোর্স রুম"
+    },
+    {
+        id: 515,
+        en: "staff",
+        bn: "কর্মী"
+    },
+    {
+        id: 516,
+        en: "commencement",
+        bn: "শুরু / সমাবর্তন"
+    },
+    {
+        id: 517,
+        en: "dissertation",
+        bn: "অভিসন্দর্ভ (গবেষণাপত্র)"
+    },
+    {
+        id: 518,
+        en: "leaflet",
+        bn: "প্রচারপত্র (লিফলেট)"
+    },
+    {
+        id: 519,
+        en: "faculty",
+        bn: "অনুষদ"
+    },
+    {
+        id: 520,
+        en: "pupils",
+        bn: "ছাত্রছাত্রী"
+    },
+    {
+        id: 521,
+        en: "pencil",
+        bn: "পেন্সিল"
+    },
+    {
+        id: 522,
+        en: "feedback",
+        bn: "প্রতিক্রিয়া"
+    },
+    {
+        id: 523,
+        en: "tasks",
+        bn: "কাজসমূহ"
+    },
+    {
+        id: 524,
+        en: "outcomes",
+        bn: "ফলাফল"
+    },
+    {
+        id: 525,
+        en: "advanced",
+        bn: "উন্নত"
+    },
+    {
+        id: 526,
+        en: "introductory",
+        bn: "পরিচায়ক (সূচনামূলক)"
+    },
+    {
+        id: 527,
+        en: "extra background",
+        bn: "অতিরিক্ত পটভূমি"
+    },
+    {
+        id: 528,
+        en: "higher education",
+        bn: "উচ্চশিক্ষা"
+    },
+    {
+        id: 529,
+        en: "guidelines",
+        bn: "নির্দেশিকা"
+    },
+    {
+        id: 530,
+        en: "post-secondary",
+        bn: "মাধ্যমিক-পরবর্তী"
+    },
+    {
+        id: 531,
+        en: "supervisor",
+        bn: "তত্ত্বাবধায়ক"
+    },
+    {
+        id: 532,
+        en: "bachelor's degree",
+        bn: "স্নাতক ডিগ্রি"
+    },
+    {
+        id: 533,
+        en: "compound",
+        bn: "প্রাঙ্গণ / যৌগ"
+    },
+    {
+        id: 534,
+        en: "vocabulary",
+        bn: "শব্দভান্ডার"
+    },
+    {
+        id: 535,
+        en: "student support services",
+        bn: "ছাত্র সহায়তা পরিষেবা"
+    },
+    {
+        id: 536,
+        en: "student retention",
+        bn: "ছাত্র ধরে রাখা"
+    },
+    {
+        id: 537,
+        en: "publication",
+        bn: "প্রকাশনা"
+    },
+    {
+        id: 538,
+        en: "foreign students",
+        bn: "বিদেশী শিক্ষার্থী"
+    },
+    {
+        id: 539,
+        en: "schedule",
+        bn: "সময়সূচী"
+    },
+    {
+        id: 540,
+        en: "school",
+        bn: "বিদ্যালয়"
+    },
+    {
+        id: 541,
+        en: "reunion",
+        bn: "পুনর্মিলনী"
+    },
+    {
+        id: 542,
+        en: "registrar's office",
+        bn: "রেজিস্ট্রারের কার্যালয়"
+    },
+    {
+        id: 543,
+        en: "stationery",
+        bn: "স্টেশনারি (খাতা-কলম ইত্যাদি)"
+    },
+    {
+        id: 544,
+        en: "catalogue",
+        bn: "ক্যাটালগ (পণ্যতালিকা)"
+    },
+    {
+        id: 545,
+        en: "interview",
+        bn: "সাক্ষাৎকার"
+    },
+    {
+        id: 546,
+        en: "newsletter",
+        bn: "নিউজলেটার (তথ্যপত্র)"
+    },
+    {
+        id: 547,
+        en: "competition",
+        bn: "প্রতিযোগিতা"
+    },
+    {
+        id: 548,
+        en: "TV program",
+        bn: "টিভি প্রোগ্রাম"
+    },
+    {
+        id: 549,
+        en: "strategies",
+        bn: "কৌশলসমূহ"
+    },
+    {
+        id: 550,
+        en: "research method",
+        bn: "গবেষণা পদ্ধতি"
+    },
+    {
+        id: 551,
+        en: "entertainment industry",
+        bn: "বিনোদন শিল্প"
+    },
+    {
+        id: 552,
+        en: "leadership",
+        bn: "নেতৃত্ব"
+    },
+    {
+        id: 553,
+        en: "management",
+        bn: "ব্যবস্থাপনা"
+    },
+    {
+        id: 554,
+        en: "display",
+        bn: "প্রদর্শন"
+    },
+    {
+        id: 555,
+        en: "products",
+        bn: "পণ্যসামগ্রী"
+    },
+    {
+        id: 556,
+        en: "customer",
+        bn: "গ্রাহক"
+    },
+    {
+        id: 557,
+        en: "special offer",
+        bn: "বিশেষ প্রস্তাব"
+    },
+    {
+        id: 558,
+        en: "collecting data",
+        bn: "তথ্য সংগ্রহ"
+    },
+    {
+        id: 559,
+        en: "questionnaire",
+        bn: "প্রশ্নমালা"
+    },
+    {
+        id: 560,
+        en: "survey",
+        bn: "জরিপ"
+    },
+    {
+        id: 561,
+        en: "mass media",
+        bn: "গণমাধ্যম"
+    },
+    {
+        id: 562,
+        en: "statistic",
+        bn: "পরিসংখ্যানগত তথ্য"
+    },
+    {
+        id: 563,
+        en: "profit margin",
+        bn: "লাভের হার"
+    },
+    {
+        id: 564,
+        en: "poll",
+        bn: "ভোট / জনমত জরিপ"
+    },
+    {
+        id: 565,
+        en: "business card",
+        bn: "বিজনেস কার্ড"
+    },
+    {
+        id: 566,
+        en: "training",
+        bn: "প্রশিক্ষণ"
+    },
+    {
+        id: 567,
+        en: "trainee",
+        bn: "প্রশিক্ষণার্থী"
+    },
+    {
+        id: 568,
+        en: "merchandise",
+        bn: "পণ্যদ্রব্য"
+    },
+    {
+        id: 569,
+        en: "manufacture",
+        bn: "উৎপাদন"
+    },
+    {
+        id: 570,
+        en: "recruitment",
+        bn: "নিয়োগ"
+    },
+    {
+        id: 571,
+        en: "yoga",
+        bn: "যোগব্যায়াম"
+    },
+    {
+        id: 572,
+        en: "tai-chi",
+        bn: "তাই-চি (এক ধরনের ব্যায়াম)"
+    },
+    {
+        id: 573,
+        en: "keep-fit",
+        bn: "সুস্থ থাকা"
+    },
+    {
+        id: 574,
+        en: "salad bar",
+        bn: "সালাদ বার"
+    },
+    {
+        id: 575,
+        en: "vegetarian",
+        bn: "নিরামিষভোজী"
+    },
+    {
+        id: 576,
+        en: "outdoor activities",
+        bn: "বাইরের কাজ/খেলাধুলা"
+    },
+    {
+        id: 577,
+        en: "leisure time",
+        bn: "অবসর সময়"
+    },
+    {
+        id: 578,
+        en: "disease",
+        bn: "রোগ"
+    },
+    {
+        id: 579,
+        en: "meal",
+        bn: "খাবার"
+    },
+    {
+        id: 580,
+        en: "protein",
+        bn: "প্রোটিন (আমিষ)"
+    },
+    {
+        id: 581,
+        en: "balanced diet",
+        bn: "সুষম খাদ্য"
+    },
+    {
+        id: 582,
+        en: "food pyramid",
+        bn: "খাদ্য পিরামিড"
+    },
+    {
+        id: 583,
+        en: "vitamin",
+        bn: "ভিটামিন"
+    },
+    {
+        id: 584,
+        en: "carbohydrates",
+        bn: "শর্করা"
+    },
+    {
+        id: 585,
+        en: "rice",
+        bn: "চাল / ভাত"
+    },
+    {
+        id: 586,
+        en: "pasta",
+        bn: "পাস্তা"
+    },
+    {
+        id: 587,
+        en: "potatoes",
+        bn: "আলু"
+    },
+    {
+        id: 588,
+        en: "pizza",
+        bn: "পিৎজা"
+    },
+    {
+        id: 589,
+        en: "tomatoes",
+        bn: "টমেটো"
+    },
+    {
+        id: 590,
+        en: "bread",
+        bn: "রুটি"
+    },
+    {
+        id: 591,
+        en: "cereals",
+        bn: "খাদ্যশস্য"
+    },
+    {
+        id: 592,
+        en: "minerals",
+        bn: "খনিজ পদার্থ"
+    },
+    {
+        id: 593,
+        en: "zinc",
+        bn: "দস্তা (জিঙ্ক)"
+    },
+    {
+        id: 594,
+        en: "meat",
+        bn: "মাংস"
+    },
+    {
+        id: 595,
+        en: "seafood",
+        bn: "সামুদ্রিক খাবার"
+    },
+    {
+        id: 596,
+        en: "eggs",
+        bn: "ডিম"
+    },
+    {
+        id: 597,
+        en: "beans",
+        bn: "শিমজাতীয় বীজ"
+    },
+    {
+        id: 598,
+        en: "milk",
+        bn: "দুধ"
+    },
+    {
+        id: 599,
+        en: "cheese",
+        bn: "পনির"
+    },
+    {
+        id: 600,
+        en: "yoghurt",
+        bn: "দই"
+    },
+    {
+        id: 601,
+        en: "fruit",
+        bn: "ফল"
+    },
+    {
+        id: 602,
+        en: "vegetables",
+        bn: "শাকসবজি"
+    },
+    {
+        id: 603,
+        en: "citrus fruits",
+        bn: "লেবুজাতীয় ফল"
+    },
+    {
+        id: 604,
+        en: "green pepper",
+        bn: "সবুজ ক্যাপসিকাম"
+    },
+    {
+        id: 605,
+        en: "blackcurrant",
+        bn: "ব্ল্যাককারেন্ট (এক ধরণের বেরি)"
+    },
+    {
+        id: 606,
+        en: "nuts",
+        bn: "বাদাম"
+    },
+    {
+        id: 607,
+        en: "egg yolk",
+        bn: "ডিমের কুসুম"
+    },
+    {
+        id: 608,
+        en: "liver",
+        bn: "কলিজা (যকৃৎ)"
+    },
+    {
+        id: 609,
+        en: "medicine treatment",
+        bn: "ঔষধী চিকিৎসা"
+    },
+    {
+        id: 610,
+        en: "remedy",
+        bn: "প্রতিকার"
+    },
+    {
+        id: 611,
+        en: "nursing care",
+        bn: "নার্সিং সেবা"
+    },
+    {
+        id: 612,
+        en: "nursery",
+        bn: "নার্সারি (শিশুশালা)"
+    },
+    {
+        id: 613,
+        en: "regular exercise",
+        bn: "নিয়মিত ব্যায়াম"
+    },
+    {
+        id: 614,
+        en: "dome",
+        bn: "গম্বুজ"
+    },
+    {
+        id: 615,
+        en: "palace",
+        bn: "রাজপ্রাসাদ"
+    },
+    {
+        id: 616,
+        en: "fort",
+        bn: "দুর্গ"
+    },
+    {
+        id: 617,
+        en: "castle",
+        bn: "দুর্গ / প্রাসাদ"
+    },
+    {
+        id: 618,
+        en: "glasshouse",
+        bn: "কাঁচঘর"
+    },
+    {
+        id: 619,
+        en: "pyramid",
+        bn: "পিরামিড"
+    },
+    {
+        id: 620,
+        en: "log cabin",
+        bn: "কাঠের ঘর"
+    },
+    {
+        id: 621,
+        en: "lighthouse",
+        bn: "বাতিঘর"
+    },
+    {
+        id: 622,
+        en: "hut",
+        bn: "কুঁড়েঘর"
+    },
+    {
+        id: 623,
+        en: "skyscraper",
+        bn: "গগনচুম্বী অট্টালিকা"
+    },
+    {
+        id: 624,
+        en: "sculpture",
+        bn: "ভাস্কর্য"
+    },
+    {
+        id: 625,
+        en: "semi-detached house",
+        bn: "আধা-বিচ্ছিন্ন বাড়ি"
+    },
+    {
+        id: 626,
+        en: "duplex",
+        bn: "ডুপ্লেক্স (দোতলা বাড়ি)"
+    },
+    {
+        id: 627,
+        en: "terraced house",
+        bn: "সারিবদ্ধ ছাদযুক্ত বাড়ি"
+    },
+    {
+        id: 628,
+        en: "townhouse",
+        bn: "টাউনহাউস"
+    },
+    {
+        id: 629,
+        en: "row house",
+        bn: "সারিবদ্ধ বাড়ি"
+    },
+    {
+        id: 630,
+        en: "bungalow",
+        bn: "বাংলো"
+    },
+    {
+        id: 631,
+        en: "thatched cottage",
+        bn: "খড়ের চালের কুঁড়েঘর"
+    },
+    {
+        id: 632,
+        en: "mobile home",
+        bn: "চলমান বাড়ি"
+    },
+    {
+        id: 633,
+        en: "houseboat",
+        bn: "নৌকায় তৈরি বাড়ি"
+    },
+    {
+        id: 634,
+        en: "block of flats",
+        bn: "ফ্ল্যাটের ব্লক"
+    },
+    {
+        id: 635,
+        en: "apartment building",
+        bn: "অ্যাপার্টমেন্ট ভবন"
+    },
+    {
+        id: 636,
+        en: "condominium",
+        bn: "কন্ডোমিনিয়াম (যৌথ মালিকানাধীন ফ্ল্যাট)"
+    },
+    {
+        id: 637,
+        en: "chimney",
+        bn: "চিমনি"
+    },
+    {
+        id: 638,
+        en: "bedroom",
+        bn: "শোবার ঘর"
+    },
+    {
+        id: 639,
+        en: "basement",
+        bn: "বেজমেন্ট / মাটির নিচের ঘর"
+    },
+    {
+        id: 640,
+        en: "landlord",
+        bn: "বাড়িওয়ালা"
+    },
+    {
+        id: 641,
+        en: "tenant",
+        bn: "ভাড়াটিয়া"
+    },
+    {
+        id: 642,
+        en: "rent",
+        bn: "ভাড়া"
+    },
+    {
+        id: 643,
+        en: "lease",
+        bn: "ইজারা / লিজ"
+    },
+    {
+        id: 644,
+        en: "neighborhood / neighbourhood",
+        bn: "পাড়া / প্রতিবেশী এলাকা"
+    },
+    {
+        id: 645,
+        en: "suburb",
+        bn: "শহরতলী"
+    },
+    {
+        id: 646,
+        en: "sofa",
+        bn: "সোফা"
+    },
+    {
+        id: 647,
+        en: "coffee table",
+        bn: "কফি টেবিল"
+    },
+    {
+        id: 648,
+        en: "dormitory",
+        bn: "ছাত্রাবাস"
+    },
+    {
+        id: 649,
+        en: "storey",
+        bn: "তলা"
+    },
+    {
+        id: 650,
+        en: "kitchen",
+        bn: "রান্নাঘর"
+    },
+    {
+        id: 651,
+        en: "refrigerator",
+        bn: "ফ্রিজ"
+    },
+    {
+        id: 652,
+        en: "microwave",
+        bn: "মাইক্রোওয়েভ"
+    },
+    {
+        id: 653,
+        en: "ground floor",
+        bn: "নিচতলা"
+    },
+    {
+        id: 654,
+        en: "oven",
+        bn: "ওভেন"
+    },
+    {
+        id: 655,
+        en: "hallway",
+        bn: "হলওয়ে / করিডোর"
+    },
+    {
+        id: 656,
+        en: "insurance",
+        bn: "বীমা"
+    },
+    {
+        id: 657,
+        en: "cities",
+        bn: "শহরগুলো"
+    },
+    {
+        id: 658,
+        en: "street",
+        bn: "রাস্তা"
+    },
+    {
+        id: 659,
+        en: "lane",
+        bn: "গলি"
+    },
+    {
+        id: 660,
+        en: "city centre",
+        bn: "শহরের কেন্দ্র"
+    },
+    {
+        id: 661,
+        en: "central station",
+        bn: "কেন্দ্রীয় স্টেশন"
+    },
+    {
+        id: 662,
+        en: "car park",
+        bn: "গাড়ি পার্ক করার জায়গা"
+    },
+    {
+        id: 663,
+        en: "department store",
+        bn: "ডিপার্টমেন্ট স্টোর"
+    },
+    {
+        id: 664,
+        en: "bridge",
+        bn: "সেতু"
+    },
+    {
+        id: 665,
+        en: "temple",
+        bn: "মন্দির"
+    },
+    {
+        id: 666,
+        en: "embassy",
+        bn: "দূতাবাস"
+    },
+    {
+        id: 667,
+        en: "road system",
+        bn: "সড়ক ব্যবস্থা"
+    },
+    {
+        id: 668,
+        en: "hospital",
+        bn: "হাসপাতাল"
+    },
+    {
+        id: 669,
+        en: "garden",
+        bn: "বাগান"
+    },
+    {
+        id: 670,
+        en: "avenue",
+        bn: "এভিনিউ / প্রশস্ত রাস্তা"
+    },
+    {
+        id: 671,
+        en: "clinic",
+        bn: "ক্লিনিক"
+    },
+    {
+        id: 672,
+        en: "dentist",
+        bn: "দাঁতের ডাক্তার"
+    },
+    {
+        id: 673,
+        en: "reception",
+        bn: "অভ্যর্থনা"
+    },
+    {
+        id: 674,
+        en: "appointment",
+        bn: "অ্যাপয়েন্টমেন্ট / সাক্ষাৎকারের সময়"
+    },
+    {
+        id: 675,
+        en: "staff selection",
+        bn: "কর্মী নির্বাচন"
+    },
+    {
+        id: 676,
+        en: "colleague",
+        bn: "সহকর্মী"
+    },
+    {
+        id: 677,
+        en: "workshop",
+        bn: "কর্মশালা"
+    },
+    {
+        id: 678,
+        en: "showroom",
+        bn: "শোরুম"
+    },
+    {
+        id: 679,
+        en: "information desk",
+        bn: "তথ্য ডেস্ক"
+    },
+    {
+        id: 680,
+        en: "employer",
+        bn: "নিয়োগকর্তা"
+    },
+    {
+        id: 681,
+        en: "employment",
+        bn: "কর্মসংস্থান"
+    },
+    {
+        id: 682,
+        en: "unemployed",
+        bn: "বেকার"
+    },
+    {
+        id: 683,
+        en: "technical cooperation",
+        bn: "প্রযুক্তিগত সহযোগিতা"
+    },
+    {
+        id: 684,
+        en: "team leaders",
+        bn: "দলনেতা"
+    },
+    {
+        id: 685,
+        en: "stress",
+        bn: "চাপ"
+    },
+    {
+        id: 686,
+        en: "ability",
+        bn: "সক্ষমতা"
+    },
+    {
+        id: 687,
+        en: "vision",
+        bn: "দূরদৃষ্টি"
+    },
+    {
+        id: 688,
+        en: "confidence",
+        bn: "আত্মবিশ্বাস"
+    },
+    {
+        id: 689,
+        en: "employee",
+        bn: "কর্মচারী"
+    },
+    {
+        id: 690,
+        en: "internship",
+        bn: "ইন্টার্নশিপ (শিক্ষানবিশ কাজ)"
+    },
+    {
+        id: 691,
+        en: "reasonable",
+        bn: "যুক্তিসঙ্গত"
+    },
+    {
+        id: 692,
+        en: "satisfactory",
+        bn: "সন্তোষজনক"
+    },
+    {
+        id: 693,
+        en: "dangerous",
+        bn: "বিপজ্জনক"
+    },
+    {
+        id: 694,
+        en: "safe",
+        bn: "নিরাপদ"
+    },
+    {
+        id: 695,
+        en: "strongly recommended",
+        bn: "দৃঢ়ভাবে প্রস্তাবিত"
+    },
+    {
+        id: 696,
+        en: "poor quality",
+        bn: "নিম্নমান"
+    },
+    {
+        id: 697,
+        en: "satisfied",
+        bn: "সন্তুষ্ট"
+    },
+    {
+        id: 698,
+        en: "disappointed",
+        bn: "হতাশ"
+    },
+    {
+        id: 699,
+        en: "efficient",
+        bn: "দক্ষ"
+    },
+    {
+        id: 700,
+        en: "luxurious",
+        bn: "বিলাসবহুল"
+    },
+    {
+        id: 701,
+        en: "colored/coloured",
+        bn: "রঙিন"
+    },
+    {
+        id: 702,
+        en: "spotted",
+        bn: "দাগযুক্ত"
+    },
+    {
+        id: 703,
+        en: "striped",
+        bn: "ডোরাকাটা"
+    },
+    {
+        id: 704,
+        en: "expensive",
+        bn: "ব্যয়বহুল"
+    },
+    {
+        id: 705,
+        en: "cheap",
+        bn: "সস্তা"
+    },
+    {
+        id: 706,
+        en: "cricket",
+        bn: "ক্রিকেট"
+    },
+    {
+        id: 707,
+        en: "baseball",
+        bn: "বেসবল"
+    },
+    {
+        id: 708,
+        en: "basketball",
+        bn: "বাস্কেটবল"
+    },
+    {
+        id: 709,
+        en: "rugby",
+        bn: "রাগবি"
+    },
+    {
+        id: 710,
+        en: "soccer",
+        bn: "সকার / ফুটবল"
+    },
+    {
+        id: 711,
+        en: "american football",
+        bn: "আমেরিকান ফুটবল"
+    },
+    {
+        id: 712,
+        en: "hockey",
+        bn: "হকি"
+    },
+    {
+        id: 713,
+        en: "swimming",
+        bn: "সাঁতার"
+    },
+    {
+        id: 714,
+        en: "tennis",
+        bn: "টেনিস"
+    },
+    {
+        id: 715,
+        en: "squash",
+        bn: "স্কোয়াশ"
+    },
+    {
+        id: 716,
+        en: "badminton",
+        bn: "ব্যাডমিন্টন"
+    },
+    {
+        id: 717,
+        en: "ping-pong",
+        bn: "পিং-পং (টেবিল টেনিস)"
+    },
+    {
+        id: 718,
+        en: "court",
+        bn: "কোর্ট"
+    },
+    {
+        id: 719,
+        en: "pitch",
+        bn: "পিচ"
+    },
+    {
+        id: 720,
+        en: "stadium",
+        bn: "স্টেডিয়াম"
+    },
+    {
+        id: 721,
+        en: "team",
+        bn: "দল"
+    },
+    {
+        id: 722,
+        en: "the discus",
+        bn: "ডিসকাস নিক্ষেপ"
+    },
+    {
+        id: 723,
+        en: "the javelin",
+        bn: "বর্শা নিক্ষেপ"
+    },
+    {
+        id: 724,
+        en: "the hammer",
+        bn: "হাতুড়ি নিক্ষেপ"
+    },
+    {
+        id: 725,
+        en: "the high jump",
+        bn: "উচ্চ লম্ফ"
+    },
+    {
+        id: 726,
+        en: "horse racing",
+        bn: "ঘোড়দৌড়"
+    },
+    {
+        id: 727,
+        en: "show jumping",
+        bn: "শো জাম্পিং"
+    },
+    {
+        id: 728,
+        en: "polo",
+        bn: "পোলো"
+    },
+    {
+        id: 729,
+        en: "cycling",
+        bn: "সাইক্লিং"
+    },
+    {
+        id: 730,
+        en: "gymnasium",
+        bn: "ব্যায়ামাগার"
+    },
+    {
+        id: 731,
+        en: "athlete",
+        bn: "ক্রীড়াবিদ"
+    },
+    {
+        id: 732,
+        en: "gym",
+        bn: "জিম"
+    },
+    {
+        id: 733,
+        en: "extreme sports",
+        bn: "চরম ক্রীড়া"
+    },
+    {
+        id: 734,
+        en: "paragliding",
+        bn: "প্যারাগ্লাইডিং"
+    },
+    {
+        id: 735,
+        en: "hang-gliding",
+        bn: "হ্যাং-গ্লাইডিং"
+    },
+    {
+        id: 736,
+        en: "skydiving",
+        bn: "স্কাইডাইভিং"
+    },
+    {
+        id: 737,
+        en: "abseiling",
+        bn: "অ্যাবসেইলিং"
+    },
+    {
+        id: 738,
+        en: "snowboarding",
+        bn: "স্নোবোর্ডিং"
+    },
+    {
+        id: 739,
+        en: "bungee jumping",
+        bn: "বাঞ্জি জাম্পিং"
+    },
+    {
+        id: 740,
+        en: "surfing",
+        bn: "সার্ফিং"
+    },
+    {
+        id: 741,
+        en: "windsurfing",
+        bn: "উইন্ডসার্ফিং"
+    },
+    {
+        id: 742,
+        en: "jet-skiing",
+        bn: "জেট-স্কিইং"
+    },
+    {
+        id: 743,
+        en: "bodyboarding",
+        bn: "বডিবোর্ডিং"
+    },
+    {
+        id: 744,
+        en: "white-water rafting",
+        bn: "হোয়াইট-ওয়াটার রাফটিং"
+    },
+    {
+        id: 745,
+        en: "kitesurfing",
+        bn: "কাইটসার্ফিং"
+    },
+    {
+        id: 746,
+        en: "mountain biking",
+        bn: "মাউন্টেন বাইকিং"
+    },
+    {
+        id: 747,
+        en: "jogging",
+        bn: "জগিং"
+    },
+    {
+        id: 748,
+        en: "press-up / push-up",
+        bn: "পুশ-আপ"
+    },
+    {
+        id: 749,
+        en: "barbell",
+        bn: "বারবেল"
+    },
+    {
+        id: 750,
+        en: "treadmill",
+        bn: "ট্রেডমিল"
+    },
+    {
+        id: 751,
+        en: "judo",
+        bn: "জুডো"
+    },
+    {
+        id: 752,
+        en: "recreation",
+        bn: "বিনোদন"
+    },
+    {
+        id: 753,
+        en: "snooker",
+        bn: "স্নুকার"
+    },
+    {
+        id: 754,
+        en: "walking",
+        bn: "হাঁটা"
+    },
+    {
+        id: 755,
+        en: "championship",
+        bn: "চ্যাম্পিয়নশিপ"
+    },
+    {
+        id: 756,
+        en: "canoeing",
+        bn: "ক্যানোয়িং (নৌকা চালানো)"
+    },
+    {
+        id: 757,
+        en: "refreshment",
+        bn: "রিফ্রেশমেন্ট / জলখাবার"
+    },
+    {
+        id: 758,
+        en: "Square",
+        bn: "বর্গাকার"
+    },
+    {
+        id: 759,
+        en: "rectangular",
+        bn: "আয়তক্ষেত্রাকার"
+    },
+    {
+        id: 760,
+        en: "triangular",
+        bn: "ত্রিভুজাকার"
+    },
+    {
+        id: 761,
+        en: "polygon",
+        bn: "বহুভুজ"
+    },
+    {
+        id: 762,
+        en: "oval",
+        bn: "ডিম্বাকৃতি"
+    },
+    {
+        id: 763,
+        en: "spherical",
+        bn: "গোলাকার"
+    },
+    {
+        id: 764,
+        en: "spiral",
+        bn: "সর্পিল"
+    },
+    {
+        id: 765,
+        en: "circular",
+        bn: "বৃত্তাকার"
+    },
+    {
+        id: 766,
+        en: "curved",
+        bn: "বাঁকানো"
+    },
+    {
+        id: 767,
+        en: "cylindrical",
+        bn: "নলাকার"
+    },
+    {
+        id: 768,
+        en: "width",
+        bn: "প্রস্থ"
+    },
+    {
+        id: 769,
+        en: "length",
+        bn: "দৈর্ঘ্য"
+    },
+    {
+        id: 770,
+        en: "altitude",
+        bn: "উচ্চতা (সমুদ্রপৃষ্ঠ থেকে)"
+    },
+    {
+        id: 771,
+        en: "imperial system",
+        bn: "ইম্পেরিয়াল সিস্টেম"
+    },
+    {
+        id: 772,
+        en: "metric system",
+        bn: "মেট্রিক সিস্টেম"
+    },
+    {
+        id: 773,
+        en: "Mass",
+        bn: "ভর"
+    },
+    {
+        id: 774,
+        en: "depth",
+        bn: "গভীরতা"
+    },
+    {
+        id: 775,
+        en: "breadth",
+        bn: "চওড়া"
+    },
+    {
+        id: 776,
+        en: "height",
+        bn: "উচ্চতা"
+    },
+    {
+        id: 777,
+        en: "three dimensions",
+        bn: "ত্রিমাত্রিক"
+    },
+    {
+        id: 778,
+        en: "frequency",
+        bn: "কম্পাঙ্ক / ফ্রিকোয়েন্সি"
+    },
+    {
+        id: 779,
+        en: "cargo plane",
+        bn: "মালবাহী বিমান"
+    },
+    {
+        id: 780,
+        en: "shipment",
+        bn: "চালান / পণ্য প্রেরণ"
+    },
+    {
+        id: 781,
+        en: "container ship",
+        bn: "কন্টেইনার জাহাজ"
+    },
+    {
+        id: 782,
+        en: "boat",
+        bn: "নৌকা"
+    },
+    {
+        id: 783,
+        en: "lifeboat",
+        bn: "লাইফবোট"
+    },
+    {
+        id: 784,
+        en: "ferry",
+        bn: "ফেরি"
+    },
+    {
+        id: 785,
+        en: "hovercraft",
+        bn: "হোভারক্রাফ্ট"
+    },
+    {
+        id: 786,
+        en: "hydrofoil",
+        bn: "হাইড্রোফয়েল"
+    },
+    {
+        id: 787,
+        en: "liner",
+        bn: "লাইনার (যাত্রীবাহী জাহাজ)"
+    },
+    {
+        id: 788,
+        en: "canal boat",
+        bn: "খালের নৌকা"
+    },
+    {
+        id: 789,
+        en: "narrowboat",
+        bn: "ন্যারোবোট"
+    },
+    {
+        id: 790,
+        en: "dinghy sailing",
+        bn: "ডিঙি নৌকা চালনা"
+    },
+    {
+        id: 791,
+        en: "sailboat",
+        bn: "পালতোলা নৌকা"
+    },
+    {
+        id: 792,
+        en: "paddle steamer",
+        bn: "প্যাডেল স্টিমার"
+    },
+    {
+        id: 793,
+        en: "cabin cruiser",
+        bn: "কেবিন ক্রুজার"
+    },
+    {
+        id: 794,
+        en: "rowing boat / rowboat",
+        bn: "দাঁড়টানা নৌকা"
+    },
+    {
+        id: 795,
+        en: "kayak",
+        bn: "কায়াক"
+    },
+    {
+        id: 796,
+        en: "canoe",
+        bn: "ক্যানো"
+    },
+    {
+        id: 797,
+        en: "punt",
+        bn: "পান্ট (এক ধরনের চ্যাপ্টা নৌকা)"
+    },
+    {
+        id: 798,
+        en: "gondola",
+        bn: "গন্ডোলা"
+    },
+    {
+        id: 799,
+        en: "aircraft",
+        bn: "বিমান"
+    },
+    {
+        id: 800,
+        en: "helicopter",
+        bn: "হেলিকপ্টার"
+    },
+    {
+        id: 801,
+        en: "seaplane",
+        bn: "সী-প্লেন"
+    },
+    {
+        id: 802,
+        en: "airship",
+        bn: "এয়ারশিপ"
+    },
+    {
+        id: 803,
+        en: "hot-air balloon",
+        bn: "হট-এয়ার বেলুন"
+    },
+    {
+        id: 804,
+        en: "airport",
+        bn: "বিমানবন্দর"
+    },
+    {
+        id: 805,
+        en: "crew",
+        bn: "নাবিকদল / ক্রু"
+    },
+    {
+        id: 806,
+        en: "passenger",
+        bn: "যাত্রী"
+    },
+    {
+        id: 807,
+        en: "platform",
+        bn: "প্ল্যাটফর্ম"
+    },
+    {
+        id: 808,
+        en: "hire a car",
+        bn: "গাড়ি ভাড়া করা"
+    },
+    {
+        id: 809,
+        en: "automobile",
+        bn: "অটোমোবাইল / গাড়ি"
+    },
+    {
+        id: 810,
+        en: "double-decker bus",
+        bn: "দোতলা বাস"
+    },
+    {
+        id: 811,
+        en: "single-decker",
+        bn: "একতলা বাস"
+    },
+    {
+        id: 812,
+        en: "minibus",
+        bn: "মিনিবাস"
+    },
+    {
+        id: 813,
+        en: "school bus",
+        bn: "স্কুল বাস"
+    },
+    {
+        id: 814,
+        en: "coach",
+        bn: "কোচ"
+    },
+    {
+        id: 815,
+        en: "truck",
+        bn: "ট্রাক"
+    },
+    {
+        id: 816,
+        en: "tanker",
+        bn: "ট্যাঙ্কার"
+    },
+    {
+        id: 817,
+        en: "van",
+        bn: "ভ্যান"
+    },
+    {
+        id: 818,
+        en: "lorry",
+        bn: "লরি"
+    },
+    {
+        id: 819,
+        en: "transporter",
+        bn: "পরিবহনকারী গাড়ি"
+    },
+    {
+        id: 820,
+        en: "forklift truck",
+        bn: "ফর্কলিফ্ট ট্রাক"
+    },
+    {
+        id: 821,
+        en: "tow truck",
+        bn: "টো ট্রাক (টেনে নেওয়ার গাড়ি)"
+    },
+    {
+        id: 822,
+        en: "breakdown truck",
+        bn: "ব্রেকডাউন ট্রাক"
+    },
+    {
+        id: 823,
+        en: "pickup",
+        bn: "পিকআপ"
+    },
+    {
+        id: 824,
+        en: "jeep",
+        bn: "জিপ"
+    },
+    {
+        id: 825,
+        en: "caravan",
+        bn: "ক্যারাভান"
+    },
+    {
+        id: 826,
+        en: "camper",
+        bn: "ক্যাম্পার"
+    },
+    {
+        id: 827,
+        en: "tractor",
+        bn: "ট্রাক্টর"
+    },
+    {
+        id: 828,
+        en: "taxi",
+        bn: "ট্যাক্সি"
+    },
+    {
+        id: 829,
+        en: "cab",
+        bn: "ক্যাব"
+    },
+    {
+        id: 830,
+        en: "tram",
+        bn: "ট্রাম"
+    },
+    {
+        id: 831,
+        en: "underground / subway",
+        bn: "পাতাল রেল"
+    },
+    {
+        id: 832,
+        en: "stream train",
+        bn: "বাষ্পীয় ট্রেন"
+    },
+    {
+        id: 833,
+        en: "freight train / goods train",
+        bn: "মালবাহী ট্রেন"
+    },
+    {
+        id: 834,
+        en: "fur",
+        bn: "পশম"
+    },
+    {
+        id: 835,
+        en: "metal",
+        bn: "ধাতু"
+    },
+    {
+        id: 836,
+        en: "steel",
+        bn: "ইস্পাত"
+    },
+    {
+        id: 837,
+        en: "aluminum / aluminium",
+        bn: "অ্যালুমিনিয়াম"
+    },
+    {
+        id: 838,
+        en: "copper",
+        bn: "তামা"
+    },
+    {
+        id: 839,
+        en: "rubber",
+        bn: "রাবার"
+    },
+    {
+        id: 840,
+        en: "plastic",
+        bn: "প্লাস্টিক"
+    },
+    {
+        id: 841,
+        en: "ceramics",
+        bn: "সিরামিক"
+    },
+    {
+        id: 842,
+        en: "glass",
+        bn: "কাঁচ"
+    },
+    {
+        id: 843,
+        en: "cement",
+        bn: "সিমেন্ট"
+    },
+    {
+        id: 844,
+        en: "stone",
+        bn: "পাথর"
+    },
+    {
+        id: 845,
+        en: "textile",
+        bn: "টেক্সটাইল / বস্ত্র"
+    },
+    {
+        id: 846,
+        en: "cotton",
+        bn: "তুলা / সুতি"
+    },
+    {
+        id: 847,
+        en: "fabric",
+        bn: "কাপড়"
+    },
+    {
+        id: 848,
+        en: "wool",
+        bn: "উল"
+    },
+    {
+        id: 849,
+        en: "leather",
+        bn: "চামড়া"
+    },
+    {
+        id: 850,
+        en: "bone",
+        bn: "হাড়"
+    },
+    {
+        id: 851,
+        en: "paper",
+        bn: "কাগজ"
+    },
+    {
+        id: 852,
+        en: "lumber / wood",
+        bn: "কাঠ"
+    },
+    {
+        id: 853,
+        en: "glue",
+        bn: "আঠা"
+    },
+    {
+        id: 854,
+        en: "composite",
+        bn: "যৌগিক"
+    },
+    {
+        id: 855,
+        en: "fiberglass / fibreglass",
+        bn: "ফাইবারগ্লাস"
+    },
+    {
+        id: 856,
+        en: "concrete",
+        bn: "কংক্রিট"
+    },
+    {
+        id: 857,
+        en: "wax",
+        bn: "মোম"
+    },
+    {
+        id: 858,
+        en: "silver",
+        bn: "রূপা"
+    },
+    {
+        id: 859,
+        en: "gold",
+        bn: "সোনা"
+    },
+    {
+        id: 860,
+        en: "feather",
+        bn: "পালক"
+    },
+    {
+        id: 861,
+        en: "occupation",
+        bn: "পেশা"
+    },
+    {
+        id: 862,
+        en: "profession",
+        bn: "বৃত্তি"
+    },
+    {
+        id: 863,
+        en: "designer",
+        bn: "ডিজাইনার"
+    },
+    {
+        id: 864,
+        en: "decorator",
+        bn: "ডেকোরেটর (সাজসজ্জাকারী)"
+    },
+    {
+        id: 865,
+        en: "architect",
+        bn: "স্থপতি"
+    },
+    {
+        id: 866,
+        en: "engineer",
+        bn: "প্রকৌশলী"
+    },
+    {
+        id: 867,
+        en: "manager",
+        bn: "ব্যবস্থাপক"
+    },
+    {
+        id: 868,
+        en: "waitress",
+        bn: "ওয়েট্রেস"
+    },
+    {
+        id: 869,
+        en: "waiter",
+        bn: "ওয়েটার"
+    },
+    {
+        id: 870,
+        en: "teacher",
+        bn: "শিক্ষক"
+    },
+    {
+        id: 871,
+        en: "vacancy",
+        bn: "শূন্যপদ"
+    },
+    {
+        id: 872,
+        en: "professor",
+        bn: "অধ্যাপক"
+    },
+    {
+        id: 873,
+        en: "psychologist",
+        bn: "মনোবিজ্ঞানী"
+    },
+    {
+        id: 874,
+        en: "volunteer",
+        bn: "স্বেচ্ছাসেবী"
+    },
+    {
+        id: 875,
+        en: "freelance",
+        bn: "ফ্রিল্যান্স (মুক্ত পেশা)"
+    },
+    {
+        id: 876,
+        en: "secretary",
+        bn: "সচিব"
+    },
+    {
+        id: 877,
+        en: "craftsman",
+        bn: "কারিগর"
+    },
+    {
+        id: 878,
+        en: "work experience",
+        bn: "কাজের অভিজ্ঞতা"
+    },
+    {
+        id: 879,
+        en: "curriculum vitae",
+        bn: "জীবনবৃত্তান্ত (সিভি)"
+    },
+    {
+        id: 880,
+        en: "mail address",
+        bn: "মেইল ঠিকানা"
+    },
+    {
+        id: 881,
+        en: "receptionist",
+        bn: "অভ্যর্থনাকারী"
+    },
+    {
+        id: 882,
+        en: "pilot",
+        bn: "পাইলট"
+    },
+    {
+        id: 883,
+        en: "guard",
+        bn: "প্রহরী"
+    },
+    {
+        id: 884,
+        en: "flight attendant",
+        bn: "ফ্লাইট অ্যাটেনডেন্ট"
+    },
+    {
+        id: 885,
+        en: "lecturer",
+        bn: "প্রভাষক"
+    },
+    {
+        id: 886,
+        en: "office assistant",
+        bn: "অফিস সহকারী"
+    },
+    {
+        id: 887,
+        en: "clerk",
+        bn: "কেরানি"
+    },
+    {
+        id: 888,
+        en: "accountant",
+        bn: "হিসাবরক্ষক"
+    },
+    {
+        id: 889,
+        en: "cashier",
+        bn: "ক্যাশিয়ার"
+    },
+    {
+        id: 890,
+        en: "captain",
+        bn: "ক্যাপ্টেন"
+    },
+    {
+        id: 891,
+        en: "blue",
+        bn: "নীল"
+    },
+    {
+        id: 892,
+        en: "white",
+        bn: "সাদা"
+    },
+    {
+        id: 893,
+        en: "orange",
+        bn: "কমলা"
+    },
+    {
+        id: 894,
+        en: "green",
+        bn: "সবুজ"
+    },
+    {
+        id: 895,
+        en: "grey",
+        bn: "ধূসর"
+    },
+    {
+        id: 896,
+        en: "black",
+        bn: "কালো"
+    },
+    {
+        id: 897,
+        en: "red",
+        bn: "লাল"
+    },
+    {
+        id: 898,
+        en: "yellow",
+        bn: "হলুদ"
+    },
+    {
+        id: 899,
+        en: "purple",
+        bn: "বেগুনি"
+    },
+    {
+        id: 900,
+        en: "brown",
+        bn: "বাদামী"
+    },
+    {
+        id: 901,
+        en: "pink",
+        bn: "গোলাপী"
+    },
+    {
+        id: 902,
+        en: "three times",
+        bn: "তিনবার"
+    },
+    {
+        id: 903,
+        en: "three times per week",
+        bn: "সপ্তাহে তিনবার"
+    },
+    {
+        id: 904,
+        en: "a gap year",
+        bn: "গ্যাপ ইয়ার (পড়াশোনার মাঝে বিরতি)"
+    },
+    {
+        id: 905,
+        en: "fulltime",
+        bn: "পূর্ণকালীন"
+    },
+    {
+        id: 906,
+        en: "part-time",
+        bn: "খণ্ডকালীন"
+    },
+    {
+        id: 907,
+        en: "midday",
+        bn: "দুপুর"
+    },
+    {
+        id: 908,
+        en: "midnight",
+        bn: "মধ্যরাত"
+    },
+    {
+        id: 909,
+        en: "millennium",
+        bn: "সহস্রাব্দ"
+    },
+    {
+        id: 910,
+        en: "century",
+        bn: "শতাব্দী"
+    },
+    {
+        id: 911,
+        en: "decade",
+        bn: "দশক"
+    },
+    {
+        id: 912,
+        en: "fortnight",
+        bn: "পাক্ষিক (১৫ দিন)"
+    }
+];
+}),
+"[project]/lib/words.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CATEGORY_LABELS",
+    ()=>CATEGORY_LABELS,
+    "words",
+    ()=>words
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$allWords$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/allWords.js [app-ssr] (ecmascript)");
+;
+const CATEGORY_LABELS = {
+    "time-money": "Time & Money",
+    academics: "Academics",
+    nature: "Nature & Environment",
+    "animals-plants": "Animals & Plants",
+    "countries-languages": "Countries & Languages",
+    "tourism-verbs": "Tourism & Verbs",
+    "adjectives-hobbies": "Adjectives & Hobbies",
+    "weather-places": "Weather & Places",
+    "media-society": "Media & Society",
+    "education-business-health": "Education, Business & Health",
+    "architecture-housing": "Architecture & Housing",
+    "city-work": "City & Work",
+    sports: "Sports",
+    "shapes-transport-materials-jobs": "Shapes, Transport, Materials & Jobs",
+    misc: "Mixed"
+};
+const getCategoryById = (id)=>{
+    if (id <= 59) return "time-money";
+    if (id <= 82) return "academics";
+    if (id <= 152) return "nature";
+    if (id <= 189) return "animals-plants";
+    if (id <= 237) return "countries-languages";
+    if (id <= 276) return "tourism-verbs";
+    if (id <= 346) return "adjectives-hobbies";
+    if (id <= 376) return "weather-places";
+    if (id <= 466) return "media-society";
+    if (id <= 613) return "education-business-health";
+    if (id <= 656) return "architecture-housing";
+    if (id <= 705) return "city-work";
+    if (id <= 757) return "sports";
+    if (id <= 891) return "shapes-transport-materials-jobs";
+    return "misc";
+};
+const words = __TURBOPACK__imported__module__$5b$project$5d2f$allWords$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["allWords"].map((word)=>({
+        ...word,
+        category: getCategoryById(word.id)
+    }));
+}),
+"[project]/lib/vocab-storage.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CUSTOM_VOCAB_KEY",
+    ()=>CUSTOM_VOCAB_KEY,
+    "getSeedWords",
+    ()=>getSeedWords,
+    "getWordCategory",
+    ()=>getWordCategory,
+    "readStoredWords",
+    ()=>readStoredWords,
+    "toCategorizedWords",
+    ()=>toCategorizedWords,
+    "writeStoredWords",
+    ()=>writeStoredWords
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$words$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/words.ts [app-ssr] (ecmascript)");
+;
+const CUSTOM_VOCAB_KEY = "custom_vocab_list";
+const getSeedWords = ()=>{
+    return __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$words$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["words"].map(({ id, en, bn })=>({
+            id,
+            en,
+            bn
+        }));
+};
+const getWordCategory = (id)=>{
+    if (id <= 59) return "time-money";
+    if (id <= 82) return "academics";
+    if (id <= 152) return "nature";
+    if (id <= 189) return "animals-plants";
+    if (id <= 237) return "countries-languages";
+    if (id <= 276) return "tourism-verbs";
+    if (id <= 346) return "adjectives-hobbies";
+    if (id <= 376) return "weather-places";
+    if (id <= 466) return "media-society";
+    if (id <= 613) return "education-business-health";
+    if (id <= 656) return "architecture-housing";
+    if (id <= 705) return "city-work";
+    if (id <= 757) return "sports";
+    if (id <= 891) return "shapes-transport-materials-jobs";
+    return "misc";
+};
+const toCategorizedWords = (list)=>{
+    return list.map((word)=>({
+            ...word,
+            category: getWordCategory(word.id)
+        }));
+};
+const readStoredWords = ()=>{
+    if ("TURBOPACK compile-time truthy", 1) {
+        return [];
+    }
+    //TURBOPACK unreachable
+    ;
+    const raw = undefined;
+};
+const writeStoredWords = (list)=>{
+    if ("TURBOPACK compile-time truthy", 1) {
+        return;
+    }
+    //TURBOPACK unreachable
+    ;
+};
+}),
+"[project]/components/providers/vocab-provider.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "VocabProvider",
+    ()=>VocabProvider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/vocab-storage.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+const VocabProvider = ({ children })=>{
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const existing = window.localStorage.getItem(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CUSTOM_VOCAB_KEY"]);
+        if (!existing) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["writeStoredWords"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getSeedWords"])());
+            return;
+        }
+        const parsed = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["readStoredWords"])();
+        if (parsed.length === 0) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["writeStoredWords"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$vocab$2d$storage$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getSeedWords"])());
+        }
+    }, []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: children
+    }, void 0, false);
+};
+}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/action-async-storage.external.js [external] (next/dist/server/app-render/action-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/action-async-storage.external.js", () => require("next/dist/server/app-render/action-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/after-task-async-storage.external.js [external] (next/dist/server/app-render/after-task-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/after-task-async-storage.external.js", () => require("next/dist/server/app-render/after-task-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/dynamic-access-async-storage.external.js [external] (next/dist/server/app-render/dynamic-access-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/dynamic-access-async-storage.external.js", () => require("next/dist/server/app-render/dynamic-access-async-storage.external.js"));
+
+module.exports = mod;
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0comnbz._.js.map
